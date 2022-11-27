@@ -11,7 +11,7 @@ public class InputManager : MonoBehaviour
 
     private PlayerInput playerInput;
     private PlayerInput.MovementActions movement;
-    private PlayerStateMachine playerStateMachine;
+    private PlayerScript playerScript;
 
     public PlayerInput.MovementActions Movement { get { return movement; } }
 
@@ -20,13 +20,13 @@ public class InputManager : MonoBehaviour
         Instance = this;
         playerInput = new PlayerInput();
         movement = new PlayerInput().Movement;
-        playerStateMachine = GetComponent<PlayerStateMachine>();
+        playerScript = GetComponent<PlayerScript>();
     }
 
 
     private void Update()
     {
-        playerStateMachine.ProcessMove(movement.PlayerMovement.ReadValue<Vector2>());
+        playerScript.ProcessMove(movement.PlayerMovement.ReadValue<Vector2>());
     }
 
 
