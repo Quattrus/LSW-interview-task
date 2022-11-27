@@ -4,12 +4,21 @@ using UnityEngine;
 
 public class PlayerStateMachine : MonoBehaviour
 {
+    private CharacterController characterController;
+    [SerializeField] float playerSpeed = 4f;
+    
 
+
+
+    private void Awake()
+    {
+        characterController = gameObject.GetComponent<CharacterController>();
+    }
 
 
     public void ProcessMove(Vector2 input)
     {
         Vector2 move = new Vector2(input.x, input.y);
-        Debug.Log(input.x + input.y);
+        characterController.Move(move * Time.deltaTime * playerSpeed);
     }
 }

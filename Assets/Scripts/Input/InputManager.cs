@@ -8,11 +8,10 @@ public class InputManager : MonoBehaviour
 {
     public static InputManager Instance { get; private set; }
 
-    #region PlayerInputs
+
     private PlayerInput playerInput;
     private PlayerInput.MovementActions movement;
     private PlayerStateMachine playerStateMachine;
-    #endregion
 
     public PlayerInput.MovementActions Movement { get { return movement; } }
 
