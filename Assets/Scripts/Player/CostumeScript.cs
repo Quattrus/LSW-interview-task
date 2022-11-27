@@ -16,11 +16,11 @@ public class CostumeScript : MonoBehaviour
 
     private void Start()
     {
-        ChangeAnimator(1);
+        ChangeSkinTone(0);
     }
 
 
-    public void ChangeAnimator(int n)
+    public void ChangeSkinTone(int n)
     {
         animator.runtimeAnimatorController = newControllers[n];
     }

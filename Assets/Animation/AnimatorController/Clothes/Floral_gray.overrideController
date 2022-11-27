@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Floral_gray
+  m_Controller: {fileID: 9100000, guid: 659dd9a8aa26e274f9f22b493bf13da5, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 0cf72d2359255dc4ba7ddb18d55726aa, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: d0dbf81ab8c3fa046bb978d48c0182fb, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: dd913154d2df3b14198a16d2c09dab4a, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 7f369a7b9ef83664d955a82a4698ab0c, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 81a536648bf160a448b00dcaecb78c64, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 1908a9dde704c7f459c2839d3c33e798, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 9b86f1b0ef2ec3d419ca81c05402dffc, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 46772344160448842b72d650a00fa347, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 5d6828afd0a01f6449e4fd322dc71b81, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: cfde0ac6269e3114db694f18e991bbdb, type: 2}

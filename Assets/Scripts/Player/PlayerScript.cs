@@ -6,7 +6,9 @@ public class PlayerScript : MonoBehaviour
 {
     private CharacterController characterController;
     [SerializeField] float playerSpeed = 4f;
+    public GameObject clothes;
     private Animator animator;
+
 
 
 
@@ -20,6 +22,7 @@ public class PlayerScript : MonoBehaviour
     public void ProcessMove(Vector2 input)
     {
         Vector2 move = new Vector2(input.x, input.y);
+        clothes.GetComponent<ClothesScript>().ClothesAnimation(input);
         animator.SetFloat("VelocityY", input.y);
         animator.SetFloat("VelocityX", input.x);
         characterController.Move(move * Time.deltaTime * playerSpeed);
