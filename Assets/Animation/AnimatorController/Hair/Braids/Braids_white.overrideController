@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Braids_white
+  m_Controller: {fileID: 9100000, guid: 659dd9a8aa26e274f9f22b493bf13da5, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 0cf72d2359255dc4ba7ddb18d55726aa, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: c82bf12ea099180419d9728e86474a6b, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: dd913154d2df3b14198a16d2c09dab4a, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 0b4d05282813ba948b6e94584db87b10, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 81a536648bf160a448b00dcaecb78c64, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: e2060e886f234e1418e872fb6337343a, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 9b86f1b0ef2ec3d419ca81c05402dffc, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 6f57d9676e9169a40a2e63e71de25329, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 5d6828afd0a01f6449e4fd322dc71b81, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: ea07efe3ab432954597e297186397e1d, type: 2}

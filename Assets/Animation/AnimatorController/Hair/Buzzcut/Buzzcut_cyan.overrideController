@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Buzzcut_cyan
+  m_Controller: {fileID: 9100000, guid: 659dd9a8aa26e274f9f22b493bf13da5, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 0cf72d2359255dc4ba7ddb18d55726aa, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 497dd919d07709c45a9e97835738c0d7, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: dd913154d2df3b14198a16d2c09dab4a, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 0528853b4cf7ae04aacfd58a3ac1f445, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 81a536648bf160a448b00dcaecb78c64, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 43a6e3880343b5d4caf8f24be94f5f66, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 9b86f1b0ef2ec3d419ca81c05402dffc, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 0f15783ec92013e44b59c34cd2b50140, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 5d6828afd0a01f6449e4fd322dc71b81, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 00724b2f5f7523646b92f236947170c2, type: 2}
