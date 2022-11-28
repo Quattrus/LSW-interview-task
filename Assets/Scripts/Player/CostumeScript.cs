@@ -21,6 +21,7 @@ public class CostumeScript : MonoBehaviour
     public void ChangeSkinTone()
     {
       animator.runtimeAnimatorController = newControllers[Mathf.FloorToInt(skinToneSlider.value)];
+      
     }
     public void ChangeClothes()
     {

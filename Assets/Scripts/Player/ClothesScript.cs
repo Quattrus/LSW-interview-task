@@ -16,7 +16,7 @@ public class ClothesScript : MonoBehaviour
 
     public void ClothesAnimation(Vector2 input)
     {
-        animator.SetFloat("VelocityX", input.x);
-        animator.SetFloat("VelocityY", input.y);
+        animator.SetInteger("VelocityX", Mathf.FloorToInt(input.x));
+        animator.SetInteger("VelocityY", Mathf.FloorToInt(input.y));
     }
 }
