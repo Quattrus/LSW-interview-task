@@ -3122,7 +3122,8 @@ MonoBehaviour:
   - {fileID: 22100000, guid: dae3291a8ae75e6449a83a2d8c058422, type: 2}
   - {fileID: 22100000, guid: 601bbd0005165214f9e97b4948343165, type: 2}
   - {fileID: 22100000, guid: 135510c1d7581ab428a02df8038f1015, type: 2}
-  newHair: []
+  newHair:
+  - {fileID: 22100000, guid: e50b87de562bc36429f1baf424811c6e, type: 2}
   clothesObject: {fileID: 1161489863}
   pantsObject: {fileID: 1622202827}
   hairObject: {fileID: 1976469489}
@@ -3130,6 +3131,7 @@ MonoBehaviour:
   clothesSlider: {fileID: 1318978152}
   pantsSlider: {fileID: 924263908}
   hairSlider: {fileID: 288196156}
+  numbers: 000000000100000002000000050000000700000003000000
 --- !u!1 &1161489863
 GameObject:
   m_ObjectHideFlags: 0

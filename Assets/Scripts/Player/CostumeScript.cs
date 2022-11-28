@@ -1,3 +1,4 @@
+using Packages.Rider.Editor.UnitTesting;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,10 +10,13 @@ public class CostumeScript : MonoBehaviour
 {
     private Animator animator;
     [SerializeField] List<RuntimeAnimatorController> newSkin = new List<RuntimeAnimatorController>();
-    private int[] purchasedSkins;
     [SerializeField] List<RuntimeAnimatorController> newClothes = new List<RuntimeAnimatorController>();
     [SerializeField] List<RuntimeAnimatorController> newPants = new List<RuntimeAnimatorController>();
     [SerializeField] List<RuntimeAnimatorController> newHair = new List<RuntimeAnimatorController>();
+    private List<RuntimeAnimatorController> availableSkin = new List<RuntimeAnimatorController>();
+    private List<RuntimeAnimatorController> availableClothes = new List<RuntimeAnimatorController>();
+    private List<RuntimeAnimatorController> availableHair = new List<RuntimeAnimatorController>();
+    private List<RuntimeAnimatorController> availablePants = new List<RuntimeAnimatorController>();
     [SerializeField] GameObject clothesObject;
     [SerializeField] GameObject pantsObject;
     [SerializeField] GameObject hairObject;
@@ -20,41 +24,56 @@ public class CostumeScript : MonoBehaviour
     [SerializeField] Slider clothesSlider;
     [SerializeField] Slider pantsSlider;
     [SerializeField] Slider hairSlider;
-    private int purchasedTones;
 
 
     private void Awake()
     {
         animator = GetComponent<Animator>();
-        purchasedSkins[0] = 1;
-        purchasedSkins[1] = 3;
     }
-
     private void Update()
     {
-        CheckPurchase();
-        
+        AvailableSkins(0);
+        AvailableSkins(3);
+        AvailableSkins(5);
+        AvailableClothes(0);
+        AvailableHair(0);
+        AvailablePants(0);
     }
+
 
     public void ChangeSkinTone()
     {
-      animator.runtimeAnimatorController = newSkin[Mathf.FloorToInt(skinToneSlider.value)];
+        animator.runtimeAnimatorController = availableSkin[Mathf.FloorToInt(skinToneSlider.value)];
     }
     public void ChangeClothes()
     {
-        clothesObject.GetComponent<Animator>().runtimeAnimatorController = newClothes[Mathf.FloorToInt(clothesSlider.value)];
+        clothesObject.GetComponent<Animator>().runtimeAnimatorController = availableClothes[Mathf.FloorToInt(clothesSlider.value)];
     }
     public void ChangePants()
     {
-        pantsObject.GetComponent<Animator>().runtimeAnimatorController = newPants[Mathf.FloorToInt(pantsSlider.value)];
+        pantsObject.GetComponent<Animator>().runtimeAnimatorController = availablePants[Mathf.FloorToInt(pantsSlider.value)];
     }
     public void ChangeHair()
     {
-        hairObject.GetComponent<Animator>().runtimeAnimatorController = newHair[Mathf.FloorToInt(hairSlider.value)];
+        hairObject.GetComponent<Animator>().runtimeAnimatorController = availableHair[Mathf.FloorToInt(hairSlider.value)];
     }
 
-    private void CheckPurchase()
+    private void AvailableSkins(int value)
     {
+      availableSkin.Add(newSkin[value]);
+    }
+    private void AvailableClothes(int value)
+    {
+        availableClothes.Add(newClothes[value]);
     }
 
+    private void AvailableHair(int value)
+    {
+        availableHair.Add(newHair[value]);
+    }
+
+    private void AvailablePants(int value)
+    {
+        availablePants.Add(newPants[value]);
+    }
 }
