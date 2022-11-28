@@ -22,9 +22,20 @@ public class PlayerScript : MonoBehaviour
     public void ProcessMove(Vector2 input)
     {
         Vector2 move = new Vector2(input.x, input.y);
-        clothes.GetComponent<ClothesScript>().ClothesAnimation(input);
-        animator.SetFloat("VelocityY", input.y);
-        animator.SetFloat("VelocityX", input.x);
+        Vector2 animMove = new Vector2(input.x, input.y);
+        if(animMove.y < 0 && animMove.x < 0)
+        {
+            animMove.x = 0;
+            animMove.y = -1;
+        }
+        else if(animMove.y > 0 && animMove.x > 0)
+        {
+            animMove.x = 0;
+            animMove.y = 1;
+        }
+        clothes.GetComponent<ClothesScript>().ClothesAnimation(animMove);
+        animator.SetInteger("VelocityY", Mathf.FloorToInt(animMove.y));
+        animator.SetInteger("VelocityX", Mathf.FloorToInt(animMove.x));
         characterController.Move(move * Time.deltaTime * playerSpeed);
     }
 }
