@@ -6,8 +6,11 @@ public class PlayerScript : MonoBehaviour
 {
     private CharacterController characterController;
     [SerializeField] float playerSpeed = 4f;
-    public GameObject clothes;
+    [SerializeField] GameObject clothes;
+    [SerializeField] GameObject pants;
+    [SerializeField] GameObject hair;
     private Animator animator;
+    private bool canInteract = false;
 
 
 
@@ -34,8 +37,28 @@ public class PlayerScript : MonoBehaviour
             animMove.y = 1;
         }
         clothes.GetComponent<ClothesScript>().ClothesAnimation(animMove);
+        pants.GetComponent<ClothesScript>().ClothesAnimation(animMove);
+        hair.GetComponent<ClothesScript>().ClothesAnimation(animMove);
         animator.SetInteger("VelocityY", Mathf.FloorToInt(animMove.y));
         animator.SetInteger("VelocityX", Mathf.FloorToInt(animMove.x));
         characterController.Move(move * Time.deltaTime * playerSpeed);
+    }
+
+
+    public void Interact()
+    {
+        if (canInteract)
+        {
+            Debug.Log("working");
+        }
+    }
+
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if(other.tag == "Interactable")
+        {
+            canInteract = true;
+        }
     }
 }

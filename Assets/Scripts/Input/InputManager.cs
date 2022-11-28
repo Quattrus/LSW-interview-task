@@ -21,6 +21,7 @@ public class InputManager : MonoBehaviour
         playerInput = new PlayerInput();
         movement = new PlayerInput().Movement;
         playerScript = GetComponent<PlayerScript>();
+        movement.Interact.performed += ctx => playerScript.Interact();
     }
 
 
