@@ -18,6 +18,5 @@ public class ClothesScript : MonoBehaviour
     {
         animator.SetFloat("VelocityX", input.x);
         animator.SetFloat("VelocityY", input.y);
-        Debug.Log(input);
     }
 }

@@ -1,11 +1,16 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class CostumeScript : MonoBehaviour
 {
     private Animator animator;
     [SerializeField] List<RuntimeAnimatorController> newControllers = new List<RuntimeAnimatorController>();
+    [SerializeField] List<RuntimeAnimatorController> newClothes = new List<RuntimeAnimatorController>();
+    [SerializeField] GameObject clothesObject;
+    [SerializeField] Slider skinToneSlider;
+    [SerializeField] Slider clothesSlider;
 
 
     private void Awake()
@@ -13,16 +18,13 @@ public class CostumeScript : MonoBehaviour
         animator = GetComponent<Animator>();
     }
 
-
-    private void Start()
+    public void ChangeSkinTone()
     {
-        ChangeSkinTone(0);
+      animator.runtimeAnimatorController = newControllers[Mathf.FloorToInt(skinToneSlider.value)];
     }
-
-
-    public void ChangeSkinTone(int n)
+    public void ChangeClothes()
     {
-        animator.runtimeAnimatorController = newControllers[n];
+        clothesObject.GetComponent<Animator>().runtimeAnimatorController = newClothes[Mathf.FloorToInt(clothesSlider.value)];
     }
 
 }
