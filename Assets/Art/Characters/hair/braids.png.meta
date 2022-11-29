@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -67,7 +67,7 @@ TextureImporter:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
-    resizeAlgorithm: 0
+    resizeAlgorithm: 1
     textureFormat: -1
     textureCompression: 0
     compressionQuality: 50
@@ -64265,11 +64265,11 @@ TextureImporter:
       braids_2969: -2080480912
       braids_2825: -2048864084
       braids_973: -1719488642
-      braids_2391: -813970323
-      braids_452: -1827632857
-      braids_1960: 1109776965
-      braids_1528: 2003632759
       braids_2626: 2007553919
+      braids_1960: 1109776965
+      braids_452: -1827632857
+      braids_2391: -813970323
+      braids_1528: 2003632759
       braids_3051: 1579785045
       braids_523: 21576078
       braids_2306: 1929915740
@@ -64308,20 +64308,20 @@ TextureImporter:
       braids_1925: 884187355
       braids_1075: -912147154
       braids_2911: -2007254809
+      braids_2477: -1520665375
       braids_1640: -856962446
       braids_414: 1531546414
       braids_1538: 1222523043
       braids_163: -2141218768
-      braids_2477: -1520665375
       braids_1424: 2088065750
       braids_2393: -1474027886
       braids_2623: 259431848
-      braids_122: -1717173590
       braids_2998: -2040942529
+      braids_122: -1717173590
       braids_558: 1962443103
-      braids_2112: 749245046
-      braids_373: -1836853641
       braids_1417: -1886170487
+      braids_373: -1836853641
+      braids_2112: 749245046
       braids_1439: 1013379660
       braids_740: 49955019
       braids_2294: 276875684
@@ -64333,11 +64333,11 @@ TextureImporter:
       braids_2839: -1577856783
       braids_2953: -1575316061
       braids_2007: 1060202494
+      braids_2194: -933681332
       braids_595: -1465021553
       braids_1409: -323723614
       braids_2057: 1326141283
       braids_2573: 959307572
-      braids_2194: -933681332
       braids_2893: -513485039
       braids_2931: -1367681957
       braids_2251: 143006693
@@ -64366,10 +64366,10 @@ TextureImporter:
       braids_781: -1459057906
       braids_649: 1831671594
       braids_2107: -1313179807
-      braids_2706: 958419138
+      braids_2834: -1075068203
       braids_214: 1835530093
       braids_788: 2067519791
-      braids_2834: -1075068203
+      braids_2706: 958419138
       braids_975: -1670275056
       braids_3010: 1853441129
       braids_534: -540068691
@@ -64383,8 +64383,8 @@ TextureImporter:
       braids_854: 1813306672
       braids_2134: 2083454023
       braids_1176: -1263941632
-      braids_1992: -366871852
       braids_3036: 1197420446
+      braids_1992: -366871852
       braids_62: 2073012251
       braids_2331: -1214343654
       braids_529: 1452194513
@@ -64444,12 +64444,12 @@ TextureImporter:
       braids_2146: -995532347
       braids_1904: 923590780
       braids_1033: -1231684288
-      braids_2580: -2005230081
       braids_2823: 570094873
+      braids_2580: -2005230081
       braids_35: -536577955
-      braids_2944: -677451481
       braids_73: -290504001
       braids_2270: 1457252634
+      braids_2944: -677451481
       braids_1211: -44889768
       braids_1107: -137669189
       braids_2777: 981835803
@@ -64467,8 +64467,8 @@ TextureImporter:
       braids_1234: -1828911150
       braids_1766: -1173767558
       braids_1891: 990379220
-      braids_1761: -538307916
       braids_2885: 1966282449
+      braids_1761: -538307916
       braids_348: -655742790
       braids_2058: 1564500293
       braids_446: 1819505072
@@ -64494,8 +64494,8 @@ TextureImporter:
       braids_2076: 1633521561
       braids_2372: 1172504206
       braids_1476: 2078698830
-      braids_2866: 1752158765
       braids_2995: 547479104
+      braids_2866: 1752158765
       braids_541: 1400950644
       braids_1887: 287954330
       braids_1181: 2099759863
@@ -64519,11 +64519,11 @@ TextureImporter:
       braids_1657: -1308380849
       braids_500: 2136352815
       braids_372: 1656627026
-      braids_1522: 88768696
+      braids_1952: 1722971758
       braids_1321: -1609142831
       braids_1661: -1543806691
+      braids_1522: 88768696
       braids_1287: 704084389
-      braids_1952: 1722971758
       braids_630: 127957218
       braids_732: -1408700883
       braids_2786: -138377145
@@ -64531,8 +64531,8 @@ TextureImporter:
       braids_2445: 1338214675
       braids_210: -1384314319
       braids_1007: -592326965
-      braids_2040: 1702192064
       braids_2769: 1823333520
+      braids_2040: 1702192064
       braids_362: -362463325
       braids_987: -1885680250
       braids_2636: -845031624
@@ -64751,8 +64751,8 @@ TextureImporter:
       braids_337: -395181136
       braids_1623: 2117043592
       braids_16: -2044000060
-      braids_2244: 1051885738
       braids_2166: -1921851573
+      braids_2244: 1051885738
       braids_279: -210551450
       braids_191: -2114190506
       braids_233: -1009887779
@@ -64770,9 +64770,9 @@ TextureImporter:
       braids_1152: 1964260843
       braids_417: -1901091283
       braids_2564: 303694734
-      braids_2682: 487408966
-      braids_1815: 417899827
       braids_3038: 1947314829
+      braids_1815: 417899827
+      braids_2682: 487408966
       braids_1765: -970026745
       braids_2178: -479064210
       braids_2019: 777295540
@@ -64794,9 +64794,9 @@ TextureImporter:
       braids_695: 2118913501
       braids_1541: 1340517866
       braids_2514: 138169001
+      braids_2815: 1427764994
       braids_1236: -1102243403
       braids_676: 433942635
-      braids_2815: 1427764994
       braids_1583: -210289888
       braids_962: 1992706646
       braids_1713: 805666611
@@ -64843,11 +64843,11 @@ TextureImporter:
       braids_1462: 236322310
       braids_813: 1790414242
       braids_1575: -201607832
-      braids_359: 1894711488
-      braids_603: 1484852028
       braids_2476: -821018977
-      braids_314: -596298677
+      braids_603: 1484852028
+      braids_359: 1894711488
       braids_1231: 1921496961
+      braids_314: -596298677
       braids_1961: 390257820
       braids_1939: 207065236
       braids_2003: -674371290
@@ -64862,9 +64862,9 @@ TextureImporter:
       braids_2360: 1534250657
       braids_1490: -1309448533
       braids_1825: -748667343
-      braids_2206: -232797137
-      braids_2504: 1141212747
       braids_2273: 1522657513
+      braids_2504: 1141212747
+      braids_2206: -232797137
       braids_2221: -680600806
       braids_136: -425720227
       braids_885: -1841404170
@@ -64889,8 +64889,8 @@ TextureImporter:
       braids_2859: 1451936099
       braids_1840: 609405994
       braids_2761: 1239698858
-      braids_2189: 510107108
       braids_2951: -1782954547
+      braids_2189: 510107108
       braids_678: -1382291112
       braids_1042: -2126909136
       braids_1956: -379188949
@@ -64901,9 +64901,9 @@ TextureImporter:
       braids_575: -171698765
       braids_1569: -206985545
       braids_1060: 54607420
+      braids_2565: 1855582685
       braids_11: -1215950010
       braids_1533: 987447644
-      braids_2565: 1855582685
       braids_2082: -1462477122
       braids_1012: 842306752
       braids_2054: 1458554163
@@ -65113,10 +65113,10 @@ TextureImporter:
       braids_2658: -1499418671
       braids_2705: -1748671917
       braids_1025: -1950083969
-      braids_1295: -902191132
       braids_2363: -394468410
       braids_503: 913918748
       braids_1081: -539497178
+      braids_1295: -902191132
       braids_2235: 1641785132
       braids_74: 166753501
       braids_512: 1158184575
@@ -65150,9 +65150,9 @@ TextureImporter:
       braids_30: 820799456
       braids_1797: -80224895
       braids_1495: 1379563418
-      braids_1723: -641399023
-      braids_1225: 702081347
       braids_2804: 811317762
+      braids_1225: 702081347
+      braids_1723: -641399023
       braids_2540: -1590883671
       braids_1143: -1048148916
       braids_597: -2008077044
@@ -65367,17 +65367,17 @@ TextureImporter:
       braids_2846: -221966784
       braids_2710: 598003982
       braids_625: 1806619464
-      braids_1149: 641920173
       braids_1179: -1460056860
-      braids_208: 1942253324
-      braids_1203: -571949695
+      braids_1598: 18287112
+      braids_1149: 641920173
       braids_2520: 1239056830
+      braids_1631: -2000114636
+      braids_208: 1942253324
       braids_313: 467343434
       braids_2063: -1594122959
-      braids_1631: -2000114636
+      braids_1203: -571949695
       braids_2074: -676350500
       braids_656: -1005782263
-      braids_1598: 18287112
       braids_450: -1245605984
       braids_1549: 976031445
       braids_2161: -1721844464
@@ -65456,8 +65456,8 @@ TextureImporter:
       braids_715: 1544062003
       braids_916: -1987024184
       braids_1273: 2119704866
-      braids_2026: 1331065900
       braids_2311: 423653660
+      braids_2026: 1331065900
       braids_750: 1414641117
       braids_632: 1581552707
       braids_1229: 886932964
@@ -65484,12 +65484,12 @@ TextureImporter:
       braids_1228: -1417964030
       braids_580: -293320451
       braids_605: -1023011137
-      braids_842: -841266328
       braids_1404: -1061473328
+      braids_842: -841266328
+      braids_1673: -168272123
       braids_752: -1564542851
       braids_2582: -1493360038
       braids_1577: 1853806697
-      braids_1673: -168272123
       braids_1835: 249095519
       braids_1847: -500425718
       braids_1350: -1035647214
@@ -65509,18 +65509,18 @@ TextureImporter:
       braids_2810: 210070081
       braids_2947: 681083886
       braids_837: -1345875852
-      braids_1113: 20848739
       braids_1393: -1813162820
+      braids_1113: 20848739
       braids_445: -297859307
       braids_1632: -1309153191
       braids_234: -1797861596
       braids_1304: -1480987527
       braids_1453: 916257219
       braids_2902: -2020692486
-      braids_2841: -1506516236
+      braids_3025: 217586857
       braids_143: 1772379786
       braids_1785: 741301410
-      braids_3025: 217586857
+      braids_2841: -1506516236
       braids_515: -661932106
       braids_1292: 1708643519
       braids_1431: 1504276014
@@ -65541,8 +65541,8 @@ TextureImporter:
       braids_547: -705032585
       braids_794: -683073178
       braids_793: 731105997
-      braids_908: -2026108477
       braids_2243: -1097324166
+      braids_908: -2026108477
       braids_1112: -2072649982
       braids_1763: -950403352
       braids_2295: 1678856858
@@ -65563,12 +65563,12 @@ TextureImporter:
       braids_419: -1559854816
       braids_228: -887869236
       braids_1755: 598369807
+      braids_2556: -1214347437
       braids_1695: 1703551763
       braids_598: -598165162
       braids_407: 1086993841
       braids_2502: -252272520
       braids_2694: -574202243
-      braids_2556: -1214347437
       braids_153: -2070927386
       braids_1591: 413334931
       braids_1811: -156656238
@@ -65847,13 +65847,13 @@ TextureImporter:
       braids_102: -354494074
       braids_514: 1853816707
       braids_552: 591128681
-      braids_2351: 962404059
-      braids_2966: -2086931560
       braids_3019: 1088945294
+      braids_2351: 962404059
       braids_1040: 1067372630
+      braids_2966: -2086931560
       braids_195: 1886785381
-      braids_1001: -2102969365
       braids_917: -676361027
+      braids_1001: -2102969365
       braids_60: 1865381077
       braids_576: 28158346
       braids_1378: -1558209009
@@ -65977,13 +65977,12 @@ TextureImporter:
       braids_1947: -163526201
       braids_2687: -880583640
       braids_1464: -942407344
-      braids_1788: -948669189
       braids_3002: -75542333
       braids_1629: -1126099654
       braids_1282: -940020668
       braids_329: 2120797878
       braids_2925: -1764900161
-      braids_2575: 272669245
+      braids_1788: -948669189
       braids_1267: 486555890
       braids_2507: -1345969101
       braids_2811: -584515551
@@ -65991,6 +65990,7 @@ TextureImporter:
       braids_2192: -792771816
       braids_2639: 517529451
       braids_2977: 396171153
+      braids_2575: 272669245
       braids_2898: 1656266834
       braids_820: -1726686133
       braids_1628: 609885809
@@ -66055,15 +66055,15 @@ TextureImporter:
       braids_2266: 320772502
       braids_1750: 698434400
       braids_496: 398671391
-      braids_2049: -2111038782
       braids_2922: 766350047
       braids_1800: -1761326418
       braids_1927: -1155599851
       braids_658: 1486478142
-      braids_2619: -283755824
+      braids_2049: -2111038782
       braids_2231: 697083741
       braids_519: -2147075050
       braids_1438: 1551332546
+      braids_2619: -283755824
       braids_1171: -1497896293
       braids_2697: -775097546
       braids_2158: 1744058301
@@ -66188,8 +66188,8 @@ TextureImporter:
       braids_1375: 2128374503
       braids_1080: 1561937854
       braids_239: 354451999
-      braids_1140: -1420565318
       braids_2286: 429302270
+      braids_1140: -1420565318
       braids_138: -1932619783
       braids_668: -673851343
       braids_1035: 152740882
@@ -66208,8 +66208,8 @@ TextureImporter:
       braids_639: -1010107866
       braids_769: -1196018979
       braids_710: 1025304154
-      braids_1094: 1666777535
       braids_1446: 607261590
+      braids_1094: 1666777535
       braids_1933: 126481088
       braids_578: 1942256563
       braids_330: -1212314999
@@ -66258,8 +66258,8 @@ TextureImporter:
       braids_1608: 1773986776
       braids_2010: 1295327013
       braids_1324: 584772925
-      braids_631: -319014673
       braids_2205: 1841425250
+      braids_631: -319014673
       braids_2440: 1635010421
       braids_997: -1642849451
       braids_2227: 1141549358
@@ -66301,8 +66301,8 @@ TextureImporter:
       braids_2446: 38243701
       braids_2453: -59192249
       braids_1527: 1785829864
-      braids_1390: 307331683
       braids_2650: -424077208
+      braids_1390: 307331683
       braids_1728: 1560245789
       braids_2867: -914675766
       braids_2681: 2001001271
@@ -66484,8 +66484,8 @@ TextureImporter:
       braids_1471: -633410518
       braids_2862: -758355204
       braids_282: 1043944844
-      braids_425: -493015572
       braids_1394: -332070272
+      braids_425: -493015572
       braids_2287: 1277478932
       braids_144: 1704672073
       braids_556: 617600478
@@ -66507,8 +66507,8 @@ TextureImporter:
       braids_2297: -242916465
       braids_2870: 880595385
       braids_250: -655214094
-      braids_467: -72662850
       braids_1160: 493305702
+      braids_467: -72662850
       braids_317: 1181858457
       braids_1408: 1431499772
       braids_319: -674562611
@@ -66547,8 +66547,8 @@ TextureImporter:
       braids_1831: 1252654410
       braids_423: -861737402
       braids_382: 340941949
-      braids_1230: 561243450
       braids_2926: 1670865901
+      braids_1230: 561243450
       braids_242: -1504775848
       braids_2602: 877620812
       braids_1043: -1081827664
@@ -66563,11 +66563,11 @@ TextureImporter:
       braids_2961: -356135251
       braids_1351: 1509234443
       braids_728: -1708678553
-      braids_561: -663616850
+      braids_1359: 1587727398
       braids_488: -383919350
       braids_1861: 1305809085
+      braids_561: -663616850
       braids_2539: -403875430
-      braids_1359: 1587727398
       braids_1151: 916300777
       braids_2600: 1975912637
       braids_998: 1870344794
@@ -66599,10 +66599,10 @@ TextureImporter:
       braids_145: -1034227007
       braids_1131: 906935077
       braids_2665: 812541438
-      braids_1329: -101343716
       braids_2774: -338378567
       braids_2077: 1262751834
       braids_1876: -1101605065
+      braids_1329: -101343716
       braids_1812: -1954769127
       braids_1796: 1704338877
       braids_3032: 1669311662
@@ -66668,10 +66668,10 @@ TextureImporter:
       braids_767: -1902072854
       braids_2368: -823099626
       braids_1862: -304794408
-      braids_2779: 532038329
       braids_2878: 1974330435
       braids_1841: 650688545
       braids_1168: 2007543893
+      braids_2779: 532038329
       braids_2805: -592827959
       braids_629: -732497960
       braids_2685: 452660549
@@ -66969,8 +66969,8 @@ TextureImporter:
       braids_589: -224153613
       braids_2016: -1666932261
       braids_2106: 1277799922
-      braids_2318: 1303148516
       braids_2984: -743969285
+      braids_2318: 1303148516
       braids_2534: -333367640
       braids_486: 1777529684
       braids_2413: 754069331

@@ -6,16 +6,16 @@ AnimatorOverrideController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: LongStraight_white
+  m_Name: Spacebuns_blue
   m_Controller: {fileID: 9100000, guid: 659dd9a8aa26e274f9f22b493bf13da5, type: 2}
   m_Clips:
   - m_OriginalClip: {fileID: 7400000, guid: 0cf72d2359255dc4ba7ddb18d55726aa, type: 2}
-    m_OverrideClip: {fileID: 7400000, guid: aeadca651481c68498d8ba2fca3db8f3, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: c4985abbf4f811c47a0b3f7a15dbc2a4, type: 2}
   - m_OriginalClip: {fileID: 7400000, guid: dd913154d2df3b14198a16d2c09dab4a, type: 2}
-    m_OverrideClip: {fileID: 7400000, guid: 5efc30a852f60bc4c986a53bdbf5a4a6, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 3f7214d6f14fe424cb25fbbacde080ce, type: 2}
   - m_OriginalClip: {fileID: 7400000, guid: 81a536648bf160a448b00dcaecb78c64, type: 2}
-    m_OverrideClip: {fileID: 7400000, guid: 98a6306b1612ca645b88cf96fcc24d2c, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: d9c3ba5dd3ba92242a378f347ca09142, type: 2}
   - m_OriginalClip: {fileID: 7400000, guid: 9b86f1b0ef2ec3d419ca81c05402dffc, type: 2}
-    m_OverrideClip: {fileID: 7400000, guid: f48178e6c8390eb4d8f1c29fba19d26d, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: cccd1a7c8da413a4faa2db7bd3dc02b3, type: 2}
   - m_OriginalClip: {fileID: 7400000, guid: 5d6828afd0a01f6449e4fd322dc71b81, type: 2}
-    m_OverrideClip: {fileID: 7400000, guid: 5c70bd5f2708cf840bcae0b0dbddf03f, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 9e02302de0b536446a0a5cc6d359a3a6, type: 2}
