@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &6965633353518829773
+--- !u!1 &4029536355195785160
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,39 +8,39 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 6965633353518829768}
-  - component: {fileID: 6965633353518829771}
-  - component: {fileID: 6965633353518829770}
-  - component: {fileID: 6965633353518829769}
+  - component: {fileID: 4029536355195785165}
+  - component: {fileID: 4029536355195785166}
+  - component: {fileID: 4029536355195785167}
+  - component: {fileID: 4029536355195785164}
   m_Layer: 0
-  m_Name: Test
+  m_Name: Store
   m_TagString: Merchant
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
---- !u!4 &6965633353518829768
+--- !u!4 &4029536355195785165
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6965633353518829773}
+  m_GameObject: {fileID: 4029536355195785160}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 6.275037, y: -2.94, z: 0}
+  m_LocalPosition: {x: 7.68, y: 1.99, z: 0}
   m_LocalScale: {x: 3.1646876, y: 3.9875, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &6965633353518829771
+--- !u!212 &4029536355195785166
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6965633353518829773}
+  m_GameObject: {fileID: 4029536355195785160}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -76,7 +76,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 1, g: 0, b: 0, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -86,26 +86,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!65 &6965633353518829770
+--- !u!65 &4029536355195785167
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6965633353518829773}
+  m_GameObject: {fileID: 4029536355195785160}
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 0.2}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &6965633353518829769
+--- !u!114 &4029536355195785164
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6965633353518829773}
+  m_GameObject: {fileID: 4029536355195785160}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d414f3988df06e748b152d8f964a0123, type: 3}
@@ -170,6 +170,34 @@ MonoBehaviour:
   - {fileID: -853933765, guid: 59d3b7731cc42994788a6f073e342f41, type: 3}
   - {fileID: 1056434720, guid: 59d3b7731cc42994788a6f073e342f41, type: 3}
   - {fileID: -765941497, guid: 59d3b7731cc42994788a6f073e342f41, type: 3}
+  allPants:
+  - {fileID: 1405801333, guid: 58e9037d31c61e341a8086f4b139a437, type: 3}
+  - {fileID: -991334377, guid: 58e9037d31c61e341a8086f4b139a437, type: 3}
+  - {fileID: 257909425, guid: 58e9037d31c61e341a8086f4b139a437, type: 3}
+  - {fileID: 316818181, guid: 58e9037d31c61e341a8086f4b139a437, type: 3}
+  - {fileID: 2128118481, guid: 58e9037d31c61e341a8086f4b139a437, type: 3}
+  - {fileID: 1757559008, guid: 58e9037d31c61e341a8086f4b139a437, type: 3}
+  - {fileID: 1124182006, guid: 58e9037d31c61e341a8086f4b139a437, type: 3}
+  - {fileID: -1682707005, guid: 58e9037d31c61e341a8086f4b139a437, type: 3}
+  - {fileID: -939684631, guid: 58e9037d31c61e341a8086f4b139a437, type: 3}
+  - {fileID: 1616196352, guid: 58e9037d31c61e341a8086f4b139a437, type: 3}
+  - {fileID: 1261043629, guid: 58e9037d31c61e341a8086f4b139a437, type: 3}
+  skinSprite: {fileID: 0}
+  clothesSprite: {fileID: 0}
+  pantsSprite: {fileID: 0}
+  hairSprite: {fileID: 0}
+  tonePriceText: {fileID: 0}
+  clothesPriceText: {fileID: 0}
+  pantsPriceText: {fileID: 0}
+  hairPriceText: {fileID: 0}
+  clothesPrice: 30
+  hairPrice: 10
+  pantsPrice: 20
+  tonePrice: 50
+  ownedSkins: 
+  ownedClothes: 
+  ownedHair: 
+  ownedPants: 
   skinToneLeft: {fileID: 0}
   skinToneRight: {fileID: 0}
   clothesLeft: {fileID: 0}
