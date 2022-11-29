@@ -26,20 +26,21 @@ public class CostumeScript : MonoBehaviour
     [SerializeField] Slider hairSlider;
 
 
+    public static CostumeScript Instance { get; private set; }
+
+
     private void Awake()
     {
+        Instance = this;
         animator = GetComponent<Animator>();
     }
-    private void Update()
+    private void Start()
     {
         AvailableSkins(0);
-        AvailableSkins(3);
-        AvailableSkins(5);
+        AvailablePants(0);
         AvailableClothes(0);
         AvailableHair(0);
-        AvailablePants(0);
     }
-
 
     public void ChangeSkinTone()
     {
