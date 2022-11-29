@@ -59,21 +59,21 @@ public class CostumeScript : MonoBehaviour
         hairObject.GetComponent<Animator>().runtimeAnimatorController = availableHair[Mathf.FloorToInt(hairSlider.value)];
     }
 
-    private void AvailableSkins(int value)
+    public void AvailableSkins(int value)
     {
       availableSkin.Add(newSkin[value]);
     }
-    private void AvailableClothes(int value)
+    public void AvailableClothes(int value)
     {
         availableClothes.Add(newClothes[value]);
     }
 
-    private void AvailableHair(int value)
+    public void AvailableHair(int value)
     {
         availableHair.Add(newHair[value]);
     }
 
-    private void AvailablePants(int value)
+    public void AvailablePants(int value)
     {
         availablePants.Add(newPants[value]);
     }

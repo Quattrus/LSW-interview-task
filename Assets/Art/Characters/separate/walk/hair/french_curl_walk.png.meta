@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -67,7 +67,7 @@ TextureImporter:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
-    resizeAlgorithm: 0
+    resizeAlgorithm: 1
     textureFormat: -1
     textureCompression: 0
     compressionQuality: 50
@@ -9804,15 +9804,15 @@ TextureImporter:
       french_curl_walk_372: -311298399
       french_curl_walk_135: 1812181838
       french_curl_walk_237: 2012533984
+      french_curl_walk_442: -1995123533
       french_curl_walk_85: -401654657
-      french_curl_walk_141: -1688024548
       french_curl_walk_205: 1442619281
       french_curl_walk_195: 1870923604
       french_curl_walk_78: -75890557
-      french_curl_walk_442: -1995123533
+      french_curl_walk_47: 1136608919
       french_curl_walk_169: 369550735
       french_curl_walk_198: -1074104110
-      french_curl_walk_47: 1136608919
+      french_curl_walk_141: -1688024548
       french_curl_walk_388: 886241244
       french_curl_walk_182: 1689929224
       french_curl_walk_318: -2013006396

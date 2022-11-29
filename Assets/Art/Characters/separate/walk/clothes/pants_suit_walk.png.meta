@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -67,7 +67,7 @@ TextureImporter:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
-    resizeAlgorithm: 0
+    resizeAlgorithm: 1
     textureFormat: -1
     textureCompression: 0
     compressionQuality: 50
@@ -6860,7 +6860,7 @@ TextureImporter:
     nameFileIdTable:
       pants_suit_walk_6: 1013040135
       pants_suit_walk_286: -338999410
-      pants_suit_walk_102: -747637955
+      pants_suit_walk_43: -1818364393
       pants_suit_walk_34: -1353029024
       pants_suit_walk_121: 1229884751
       pants_suit_walk_73: -1204777168
@@ -6894,10 +6894,10 @@ TextureImporter:
       pants_suit_walk_46: -1062590070
       pants_suit_walk_44: 238607288
       pants_suit_walk_168: -1839910341
-      pants_suit_walk_123: 1576161545
       pants_suit_walk_69: 228596423
       pants_suit_walk_203: 2018555246
       pants_suit_walk_188: 138400572
+      pants_suit_walk_123: 1576161545
       pants_suit_walk_30: -1841962286
       pants_suit_walk_72: 1616196352
       pants_suit_walk_22: -1216835514
@@ -6918,22 +6918,22 @@ TextureImporter:
       pants_suit_walk_128: -1789500050
       pants_suit_walk_317: 870990497
       pants_suit_walk_71: -1752157705
+      pants_suit_walk_95: -358381944
       pants_suit_walk_234: -1377032194
-      pants_suit_walk_17: -872221829
       pants_suit_walk_63: -519340012
-      pants_suit_walk_170: 40537175
       pants_suit_walk_36: -934226656
-      pants_suit_walk_45: -508467276
       pants_suit_walk_158: -528535696
+      pants_suit_walk_45: -508467276
+      pants_suit_walk_170: 40537175
       pants_suit_walk_193: -1212909425
       pants_suit_walk_185: 1567659158
+      pants_suit_walk_17: -872221829
       pants_suit_walk_271: -1716118380
       pants_suit_walk_210: -1069515328
       pants_suit_walk_219: 1416060235
       pants_suit_walk_260: -699170913
       pants_suit_walk_276: 1187860808
       pants_suit_walk_146: -744677353
-      pants_suit_walk_95: -358381944
       pants_suit_walk_54: 635867089
       pants_suit_walk_135: 1455122647
       pants_suit_walk_41: 618631113
@@ -7013,16 +7013,16 @@ TextureImporter:
       pants_suit_walk_191: -1770220088
       pants_suit_walk_274: -1593447889
       pants_suit_walk_5: -1820658379
-      pants_suit_walk_145: -601638344
-      pants_suit_walk_165: 1424605760
+      pants_suit_walk_183: 1579053434
+      pants_suit_walk_49: -1378280417
       pants_suit_walk_74: 1329596575
       pants_suit_walk_55: 606168853
-      pants_suit_walk_49: -1378280417
+      pants_suit_walk_165: 1424605760
       pants_suit_walk_26: -1968029532
       pants_suit_walk_242: 1216028566
       pants_suit_walk_0: 1405801333
       pants_suit_walk_299: 1787402570
-      pants_suit_walk_183: 1579053434
+      pants_suit_walk_145: -601638344
       pants_suit_walk_283: 669386955
       pants_suit_walk_186: -175419344
       pants_suit_walk_245: -1682646166
@@ -7177,7 +7177,7 @@ TextureImporter:
       pants_suit_walk_89: -692783140
       pants_suit_walk_154: -1273821412
       pants_suit_walk_25: -921153691
-      pants_suit_walk_43: -1818364393
+      pants_suit_walk_102: -747637955
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

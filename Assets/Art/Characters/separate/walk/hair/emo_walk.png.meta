@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -67,7 +67,7 @@ TextureImporter:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
-    resizeAlgorithm: 0
+    resizeAlgorithm: 1
     textureFormat: -1
     textureCompression: 0
     compressionQuality: 50
@@ -9621,12 +9621,12 @@ TextureImporter:
       emo_walk_433: -1531704411
       emo_walk_212: 1041175536
       emo_walk_199: -290429118
-      emo_walk_372: 796409594
       emo_walk_402: 1041001789
+      emo_walk_26: -168054526
       emo_walk_131: 1860629957
       emo_walk_227: 225639744
       emo_walk_27: 1494041934
-      emo_walk_26: -168054526
+      emo_walk_372: 796409594
       emo_walk_252: 2054722240
       emo_walk_354: -1419057758
       emo_walk_141: -902458005

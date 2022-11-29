@@ -20,6 +20,9 @@ public class PlayerScript : MonoBehaviour
     private bool canInteract, merchantInteract, genericInteract, buyingState = false;
     private int availableCredit = 300;
     public static PlayerScript Instance { get; private set; }
+    public int AvailableCredit { get { return availableCredit; } set { availableCredit = value; } }
+    public bool BuyingState { get { return buyingState; } }
+    public TextMeshProUGUI InteractText { get { return interactText; } set { interactText = value; } }
 
 
 

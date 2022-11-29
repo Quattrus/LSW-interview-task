@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -67,7 +67,7 @@ TextureImporter:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
-    resizeAlgorithm: 0
+    resizeAlgorithm: 1
     textureFormat: -1
     textureCompression: 0
     compressionQuality: 50
@@ -9548,9 +9548,9 @@ TextureImporter:
     nameFileIdTable:
       midiwave_walk_190: -1930495184
       midiwave_walk_434: -235338044
-      midiwave_walk_137: -660046362
+      midiwave_walk_123: -2109281686
       midiwave_walk_119: -831757652
-      midiwave_walk_237: -155489908
+      midiwave_walk_137: -660046362
       midiwave_walk_102: 825400848
       midiwave_walk_185: 1142375906
       midiwave_walk_270: -722032443
@@ -9578,10 +9578,10 @@ TextureImporter:
       midiwave_walk_194: -1884311683
       midiwave_walk_98: -1516963587
       midiwave_walk_267: 1670422872
-      midiwave_walk_376: -384274785
-      midiwave_walk_107: 1131024074
-      midiwave_walk_414: 1900118530
       midiwave_walk_133: 1206786656
+      midiwave_walk_376: -384274785
+      midiwave_walk_414: 1900118530
+      midiwave_walk_107: 1131024074
       midiwave_walk_62: -1101122962
       midiwave_walk_241: -1025254471
       midiwave_walk_130: 700415771
@@ -9622,12 +9622,12 @@ TextureImporter:
       midiwave_walk_174: -1488980197
       midiwave_walk_268: -1777455136
       midiwave_walk_138: 263971291
-      midiwave_walk_201: 78021129
+      midiwave_walk_335: 238581242
       midiwave_walk_266: 507481113
       midiwave_walk_390: -492714962
       midiwave_walk_331: 1615048732
       midiwave_walk_11: -1672053308
-      midiwave_walk_335: 238581242
+      midiwave_walk_201: 78021129
       midiwave_walk_308: -764549957
       midiwave_walk_437: -1560191201
       midiwave_walk_124: 1880105539
@@ -9644,24 +9644,24 @@ TextureImporter:
       midiwave_walk_61: -1630128055
       midiwave_walk_92: 735167276
       midiwave_walk_389: 696310845
+      midiwave_walk_60: -107883794
       midiwave_walk_317: -2042783111
-      midiwave_walk_53: 1654696573
       midiwave_walk_51: 1466703442
-      midiwave_walk_76: 1195458188
+      midiwave_walk_53: 1654696573
       midiwave_walk_121: -836100675
-      midiwave_walk_353: -1001454616
+      midiwave_walk_76: 1195458188
       midiwave_walk_87: -90425074
+      midiwave_walk_353: -1001454616
       midiwave_walk_204: -247719170
-      midiwave_walk_179: 119682449
       midiwave_walk_135: 1200740114
       midiwave_walk_440: 887058925
       midiwave_walk_261: 493428502
+      midiwave_walk_179: 119682449
       midiwave_walk_392: -34674316
-      midiwave_walk_60: -107883794
-      midiwave_walk_228: -1743552563
-      midiwave_walk_15: 1660155430
       midiwave_walk_222: 1177382394
+      midiwave_walk_228: -1743552563
       midiwave_walk_422: -1539887606
+      midiwave_walk_15: 1660155430
       midiwave_walk_2: 296954748
       midiwave_walk_117: 781335027
       midiwave_walk_356: 998924283
@@ -9774,13 +9774,13 @@ TextureImporter:
       midiwave_walk_176: 591206720
       midiwave_walk_207: 1673231511
       midiwave_walk_68: 377793265
-      midiwave_walk_122: 996738534
-      midiwave_walk_212: 1848242102
-      midiwave_walk_235: 403302352
       midiwave_walk_31: 29828503
+      midiwave_walk_429: 711501836
+      midiwave_walk_235: 403302352
+      midiwave_walk_122: 996738534
       midiwave_walk_95: -613321055
       midiwave_walk_415: 1490696824
-      midiwave_walk_429: 711501836
+      midiwave_walk_212: 1848242102
       midiwave_walk_343: 1244324802
       midiwave_walk_230: 313137322
       midiwave_walk_71: 666754082
@@ -9993,7 +9993,7 @@ TextureImporter:
       midiwave_walk_371: 1221891312
       midiwave_walk_0: 398992726
       midiwave_walk_399: 1440009937
-      midiwave_walk_123: -2109281686
+      midiwave_walk_237: -155489908
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

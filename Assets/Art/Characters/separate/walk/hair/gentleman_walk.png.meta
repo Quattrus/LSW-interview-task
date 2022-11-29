@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -67,7 +67,7 @@ TextureImporter:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
-    resizeAlgorithm: 0
+    resizeAlgorithm: 1
     textureFormat: -1
     textureCompression: 0
     compressionQuality: 50
@@ -9581,11 +9581,11 @@ TextureImporter:
       gentleman_walk_386: 157986951
       gentleman_walk_30: 726989926
       gentleman_walk_9: -1600392527
-      gentleman_walk_276: 1894094185
       gentleman_walk_169: -1222798875
-      gentleman_walk_194: 293510856
-      gentleman_walk_94: -272242475
       gentleman_walk_45: 1753439086
+      gentleman_walk_194: 293510856
+      gentleman_walk_276: 1894094185
+      gentleman_walk_94: -272242475
       gentleman_walk_262: -457650408
       gentleman_walk_145: -890357609
       gentleman_walk_167: 664629420

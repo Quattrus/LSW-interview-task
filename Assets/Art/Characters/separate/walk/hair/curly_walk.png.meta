@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -67,7 +67,7 @@ TextureImporter:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
-    resizeAlgorithm: 0
+    resizeAlgorithm: 1
     textureFormat: -1
     textureCompression: 0
     compressionQuality: 50
@@ -9667,10 +9667,10 @@ TextureImporter:
       curly_walk_166: 1686677407
       curly_walk_313: -457836201
       curly_walk_438: -976298518
-      curly_walk_38: 912830034
+      curly_walk_196: -307469785
       curly_walk_178: 1272372536
       curly_walk_351: -111470953
-      curly_walk_196: -307469785
+      curly_walk_38: 912830034
       curly_walk_387: 799724016
       curly_walk_423: -1356428862
       curly_walk_76: -855173483

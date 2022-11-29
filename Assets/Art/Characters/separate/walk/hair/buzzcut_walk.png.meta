@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -67,7 +67,7 @@ TextureImporter:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
-    resizeAlgorithm: 0
+    resizeAlgorithm: 1
     textureFormat: -1
     textureCompression: 0
     compressionQuality: 50
@@ -9576,13 +9576,13 @@ TextureImporter:
       buzzcut_walk_400: 193360320
       buzzcut_walk_86: -2058481574
       buzzcut_walk_264: -617203827
-      buzzcut_walk_31: -823697477
-      buzzcut_walk_252: 1528716737
-      buzzcut_walk_330: 366421856
-      buzzcut_walk_402: 1418336838
       buzzcut_walk_294: -1591048518
-      buzzcut_walk_9: -1861356015
       buzzcut_walk_432: 1789138945
+      buzzcut_walk_402: 1418336838
+      buzzcut_walk_9: -1861356015
+      buzzcut_walk_31: -823697477
+      buzzcut_walk_330: 366421856
+      buzzcut_walk_252: 1528716737
       buzzcut_walk_66: -784855470
       buzzcut_walk_366: -2020347762
       buzzcut_walk_90: -868982586
@@ -9611,16 +9611,16 @@ TextureImporter:
       buzzcut_walk_172: -1152472382
       buzzcut_walk_435: 29172456
       buzzcut_walk_67: -1944066654
-      buzzcut_walk_447: 751347805
+      buzzcut_walk_284: -1691089516
       buzzcut_walk_56: -861074447
       buzzcut_walk_334: 2105288809
-      buzzcut_walk_39: -1353344273
+      buzzcut_walk_447: 751347805
       buzzcut_walk_48: -570916843
       buzzcut_walk_226: 878553958
       buzzcut_walk_305: -1782914581
       buzzcut_walk_134: 1151912371
       buzzcut_walk_288: -1950422122
-      buzzcut_walk_284: -1691089516
+      buzzcut_walk_39: -1353344273
       buzzcut_walk_344: -1212689493
       buzzcut_walk_296: 1407937601
       buzzcut_walk_82: -1589492874

@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -67,7 +67,7 @@ TextureImporter:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
-    resizeAlgorithm: 0
+    resizeAlgorithm: 1
     textureFormat: -1
     textureCompression: 0
     compressionQuality: 50
@@ -810,7 +810,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      char8_walk_5: -1904081918
+      char8_walk_26: 21598557
       char8_walk_17: 1750977418
       char8_walk_3: -1928392047
       char8_walk_11: 561890947
@@ -830,18 +830,18 @@ TextureImporter:
       char8_walk_7: 1222257195
       char8_walk_27: 1337802024
       char8_walk_14: -1721517476
-      char8_walk_25: -522275215
-      char8_walk_4: -255452369
-      char8_walk_6: 1251974667
-      char8_walk_13: 1000722199
-      char8_walk_26: 21598557
-      char8_walk_0: 1333041074
-      char8_walk_31: -1139379235
-      char8_walk_18: -140741687
-      char8_walk_1: 872859784
-      char8_walk_15: 375696623
       char8_walk_9: -517507724
+      char8_walk_25: -522275215
+      char8_walk_6: 1251974667
+      char8_walk_4: -255452369
+      char8_walk_18: -140741687
       char8_walk_19: -1772671676
+      char8_walk_31: -1139379235
+      char8_walk_0: 1333041074
+      char8_walk_1: 872859784
+      char8_walk_13: 1000722199
+      char8_walk_15: 375696623
+      char8_walk_5: -1904081918
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

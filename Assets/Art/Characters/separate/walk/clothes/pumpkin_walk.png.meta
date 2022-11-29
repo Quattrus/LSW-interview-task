@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -1520,8 +1520,8 @@ TextureImporter:
       pumpkin_walk_46: -542919683
       pumpkin_walk_21: 786857000
       pumpkin_walk_50: -1501933408
-      pumpkin_walk_9: 1637404720
       pumpkin_walk_43: -518572177
+      pumpkin_walk_9: 1637404720
       pumpkin_walk_22: 503400847
       pumpkin_walk_36: -2033080193
       pumpkin_walk_29: 1292063728
