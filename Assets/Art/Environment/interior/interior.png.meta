@@ -233,12 +233,12 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: interior_5
+      name: ptg5
       rect:
         serializedVersion: 2
         x: 80
         y: 1024
-        width: 16
+        width: 12
         height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -254,12 +254,12 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: interior_6
+      name: ptg4
       rect:
         serializedVersion: 2
         x: 96
         y: 1024
-        width: 16
+        width: 12
         height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -275,12 +275,12 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: interior_7
+      name: ptg3
       rect:
         serializedVersion: 2
         x: 112
         y: 1024
-        width: 16
+        width: 12
         height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -296,12 +296,12 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: interior_8
+      name: ptg2
       rect:
         serializedVersion: 2
         x: 128
         y: 1024
-        width: 16
+        width: 12
         height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -317,12 +317,12 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: interior_9
+      name: ptg1
       rect:
         serializedVersion: 2
         x: 144
         y: 1024
-        width: 16
+        width: 12
         height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -338,12 +338,12 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: interior_10
+      name: ptg
       rect:
         serializedVersion: 2
         x: 160
         y: 1024
-        width: 16
+        width: 12
         height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -47063,34 +47063,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: interior_2235
+      name: windowCurtains
       rect:
         serializedVersion: 2
         x: 208
-        y: 560
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bd458583940373446820fced5af750fb
-      internalID: -1379302435
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: interior_2236
-      rect:
-        serializedVersion: 2
-        x: 224
-        y: 560
-        width: 16
-        height: 16
+        y: 546
+        width: 32
+        height: 29
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -49368,48 +49347,6 @@ TextureImporter:
       bones: []
       spriteID: a9c2943fd182ba84cb57a98416adb5e2
       internalID: -1877171118
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: interior_2345
-      rect:
-        serializedVersion: 2
-        x: 208
-        y: 544
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 03687b0c953d9d241ac6a7051b1f503e
-      internalID: -281101547
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: interior_2346
-      rect:
-        serializedVersion: 2
-        x: 224
-        y: 544
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d69f5e65d8e81b04cb286e2695d3d656
-      internalID: -1408663759
       vertices: []
       indices: 
       edges: []
@@ -94070,19 +94007,21 @@ TextureImporter:
       interior_904: 481357097
       interior_2031: -1531171664
       interior_4112: -1303288504
+      ptg1: -1497398841
       interior_915: 292505081
       interior_2822: 389398725
       interior_2787: -1792255050
       interior_3929: 1279086871
+      ptg: -625998644
       interior_3742: -2112084451
       interior_4445: 1315032618
       interior_3772: 1408285229
-      interior_2057: -9045197
-      interior_3402: 1848849161
-      interior_1029: -1650066930
       interior_3503: -535539685
-      interior_3966: 699458026
       interior_1047: 182670728
+      interior_1029: -1650066930
+      interior_2057: -9045197
+      interior_3966: 699458026
+      interior_3402: 1848849161
       interior_4196: -1660834035
       interior_3648: -1530888791
       interior_1239: -1083553688
@@ -94149,27 +94088,26 @@ TextureImporter:
       interior_1148: 1073739446
       interior_3753: 1834346492
       interior_540: 47687208
-      interior_4010: -2053519122
-      interior_2260: -461506112
-      interior_2687: -1057045978
-      interior_143: -386323538
-      interior_2487: -1726281289
-      interior_2408: 606388104
-      interior_3287: 1984461640
-      interior_3525: -270677598
-      interior_2236: 1567599857
-      interior_2355: 399103388
-      interior_4018: 1505215559
-      interior_3228: -1022872627
-      interior_4333: -778608050
       interior_159: -629409568
+      interior_2260: -461506112
+      interior_4010: -2053519122
+      interior_143: -386323538
+      interior_2687: -1057045978
+      interior_4018: 1505215559
+      interior_2408: 606388104
+      interior_3525: -270677598
+      interior_2355: 399103388
+      interior_4333: -778608050
+      interior_2487: -1726281289
+      interior_2189: -1950579067
+      interior_3228: -1022872627
+      interior_1998: -638938579
       interior_1768: 499118658
       interior_3315: -1525789139
       interior_4293: 534595041
-      interior_2189: -1950579067
       interior_752: -1459149384
       interior_914: 1535406740
-      interior_1998: -638938579
+      interior_3287: 1984461640
       interior_4402: -895626289
       interior_1079: 1775167171
       interior_3142: -275092085
@@ -94243,6 +94181,7 @@ TextureImporter:
       interior_377: 1034982892
       interior_35: 1459486524
       interior_1684: -1247355821
+      ptg2: 35889413
       interior_3430: 588614125
       interior_668: 1612236452
       interior_971: -552011717
@@ -94328,7 +94267,7 @@ TextureImporter:
       interior_2826: 935561390
       interior_3295: 2076302672
       interior_2211: 663465809
-      interior_10: -625998644
+      StoreIsland_cornerL: 1127848664
       interior_1478: 909219127
       wallCorner_r: 1831417720
       interior_3052: 300163508
@@ -94342,7 +94281,6 @@ TextureImporter:
       interior_1865: 1724366672
       interior_348: 957277627
       interior_2977: -159088368
-      StoreIsland_cornerL: 1127848664
       interior_2757: -85885767
       interior_1755: -1787749817
       interior_325: 412806690
@@ -95061,14 +94999,13 @@ TextureImporter:
       interior_1253: -544454491
       interior_1237: 1233643417
       interior_1445: 791616346
-      interior_6: 407379470
+      interior_3517: 646487613
       interior_359: -862532395
       interior_1426: -363614020
       interior_3183: 378419992
       interior_2338: -1070642924
-      interior_3517: 646487613
-      interior_4393: 988142175
       interior_4030: -1816101791
+      interior_4393: 988142175
       interior_3798: -1966004652
       interior_3613: 899777218
       interior_1967: -1110697746
@@ -95194,8 +95131,8 @@ TextureImporter:
       interior_2455: -1668253832
       interior_473: 1174780328
       interior_3025: 1320916574
-      interior_1399: 886904850
       interior_3586: -1154967661
+      interior_1399: 886904850
       interior_2521: -486193933
       interior_592: -912040682
       interior_86: -207197857
@@ -95203,7 +95140,6 @@ TextureImporter:
       interior_2005: 1911020208
       interior_2990: -1894857261
       interior_550: 476925531
-      interior_9: -1497398841
       interior_1822: -490260355
       interior_2915: -1456011174
       interior_1968: -649945252
@@ -95242,11 +95178,10 @@ TextureImporter:
       interior_2715: -2002899428
       interior_4029: 1928152444
       interior_3393: 1685657576
-      interior_7: 1386796941
       interior_2101: -1796008293
+      interior_2138: -1086639484
       interior_1585: 799564612
       interior_3675: 1227446766
-      interior_2138: -1086639484
       interior_831: -550441913
       interior_680: 80908530
       interior_1366: 334830672
@@ -95355,6 +95290,7 @@ TextureImporter:
       interior_81: -1208773718
       interior_2575: -389557237
       interior_944: -1843790752
+      interior_2635: 984428571
       interior_2612: 536781376
       interior_2583: 1937819430
       interior_3199: 274313573
@@ -95362,7 +95298,6 @@ TextureImporter:
       interior_13: 2130034562
       interior_1018: 989724811
       interior_1498: 44385229
-      interior_2635: 984428571
       interior_2964: 25790366
       interior_4277: -1090465494
       interior_2357: 720281071
@@ -95805,7 +95740,6 @@ TextureImporter:
       interior_3604: 1878093515
       interior_2430: -1245820391
       interior_136: 1225391331
-      interior_5: -877908048
       interior_3269: 2076902556
       interior_4290: 2096447299
       interior_153: 1921245019
@@ -96442,9 +96376,9 @@ TextureImporter:
       interior_2877: -1756618545
       interior_2611: -415471355
       interior_2217: -1508226325
-      interior_3230: 2031812317
-      interior_3547: 1213316520
       interior_3410: -1970601057
+      interior_3547: 1213316520
+      interior_3230: 2031812317
       interior_580: -749666372
       interior_1827: 1228183283
       OutWallCornerTR: -1474576065
@@ -96483,9 +96417,9 @@ TextureImporter:
       interior_1969: -277048476
       interior_994: -470142681
       interior_1019: 1343180843
-      interior_2606: -947321062
-      interior_2361: -388015769
       interior_2465: -1411391496
+      interior_2361: -388015769
+      interior_2606: -947321062
       interior_3754: -1263707381
       interior_4161: 1155107067
       interior_434: 1159152178
@@ -96542,8 +96476,8 @@ TextureImporter:
       interior_1694: -58449126
       interior_644: 1295213037
       interior_3509: 349575841
-      interior_4412: -857840156
       interior_3848: -453453162
+      interior_4412: -857840156
       interior_650: -587590276
       interior_3677: 792891967
       interior_2527: -141994019
@@ -96562,6 +96496,7 @@ TextureImporter:
       interior_126: -403866338
       interior_3559: -1702887276
       interior_1950: -1511758741
+      windowCurtains: 1567599857
       interior_446: -1819730731
       interior_853: -279214254
       interior_2059: 866552632
@@ -96638,6 +96573,7 @@ TextureImporter:
       interior_1425: 262630779
       interior_3869: 1507299921
       interior_1854: 1283959505
+      ptg4: 407379470
       interior_1110: -342108425
       interior_4299: -459625173
       interior_2941: -1009559156
@@ -97602,6 +97538,7 @@ TextureImporter:
       interior_3856: -1851929950
       interior_3764: -1309359435
       interior_4336: 2089808276
+      ptg5: -877908048
       interior_1096: -1417889531
       wallCorner_bL: 671507712
       interior_2589: -107482841
@@ -97778,6 +97715,7 @@ TextureImporter:
       interior_1380: -1377315314
       interior_1803: -1611386734
       interior_4214: -1511997942
+      ptg3: 1386796941
       interior_3665: 1543874358
       interior_4075: -1508869128
       interior_79: -926189656
@@ -98440,7 +98378,6 @@ TextureImporter:
       interior_445: -1829800134
       interior_1553: -328515795
       interior_3024: 1327410939
-      interior_8: 35889413
       interior_1052: -756407515
       interior_2450: -1398504634
       interior_1059: -261305290

@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -67,7 +67,7 @@ TextureImporter:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
-    resizeAlgorithm: 0
+    resizeAlgorithm: 1
     textureFormat: -1
     textureCompression: 0
     compressionQuality: 50
@@ -118,6 +118,18 @@ TextureImporter:
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -45919,10 +45931,10 @@ TextureImporter:
     secondaryTextures: []
     nameFileIdTable:
       floral_679: 1719054920
-      floral_1875: -1826168227
+      floral_980: -18234550
       floral_1141: 1477542987
       floral_552: -799984296
-      floral_2108: -767763830
+      floral_1875: -1826168227
       floral_1736: 344709862
       floral_209: -508046607
       floral_2129: 542346463
@@ -46051,9 +46063,9 @@ TextureImporter:
       floral_575: 1658301290
       floral_1717: 1553796669
       floral_275: -672017867
-      floral_87: -1981026347
-      floral_706: 956928268
       floral_1892: -2050264554
+      floral_706: 956928268
+      floral_87: -1981026347
       floral_755: 283722723
       floral_295: 2132101518
       floral_709: -715455921
@@ -46072,10 +46084,10 @@ TextureImporter:
       floral_1304: 38963967
       floral_508: -1412118604
       floral_190: 422904695
-      floral_1019: -1908335599
-      floral_1871: 1977250431
       floral_1851: 469362781
+      floral_1871: 1977250431
       floral_2167: 500424322
+      floral_1019: -1908335599
       floral_455: 17638903
       floral_127: -917058436
       floral_2140: -202535752
@@ -46212,45 +46224,45 @@ TextureImporter:
       floral_2029: 1590468668
       floral_1749: -1890063632
       floral_453: 1039476517
-      floral_52: -1462968141
-      floral_1041: -2119259463
-      floral_553: -383113381
-      floral_788: 240916954
-      floral_720: -1675033326
       floral_784: -1327892603
+      floral_52: -1462968141
+      floral_2015: 519088275
+      floral_1674: -1299169081
+      floral_720: -1675033326
+      floral_553: -383113381
+      floral_1041: -2119259463
       floral_1267: -984194259
       floral_959: -1084845480
-      floral_1674: -1299169081
       floral_987: -1924007876
       floral_1347: 1382593154
       floral_2173: 622851542
       floral_925: 1186653031
       floral_1530: -1366568769
       floral_1590: 1437430815
+      floral_788: 240916954
       floral_227: -724700785
       floral_1224: -978779268
       floral_1805: 239454885
-      floral_1541: -1016057040
       floral_2079: -2109044573
       floral_2138: -297352503
       floral_446: 39531579
-      floral_613: -2070548546
-      floral_1101: -23682867
+      floral_2104: 455041561
       floral_819: -285323567
-      floral_1146: -363579969
       floral_1783: 359487876
+      floral_1146: -363579969
       floral_515: -75772117
+      floral_613: -2070548546
       floral_1961: -800019525
-      floral_2015: 519088275
       floral_2085: -1022210075
+      floral_1101: -23682867
       floral_344: 1253962661
       floral_1177: 1397847794
       floral_1487: 419029441
       floral_1995: -1430834251
       floral_579: 1306387918
+      floral_1541: -1016057040
       floral_14: -148235711
       floral_1620: 775077360
-      floral_2104: 455041561
       floral_1416: -114620117
       floral_1708: -1549431260
       floral_500: -1823076510
@@ -46531,8 +46543,8 @@ TextureImporter:
       floral_597: 1384390948
       floral_1610: 2095260831
       floral_54: 1689895383
-      floral_543: -1972231652
       floral_1859: 1475261971
+      floral_543: -1972231652
       floral_894: 407071738
       floral_937: 315700166
       floral_1960: -565656743
@@ -46556,10 +46568,10 @@ TextureImporter:
       floral_1437: -1965325032
       floral_1531: 647355966
       floral_1292: 980811841
-      floral_1679: -641899177
+      floral_1839: -1035123955
       floral_121: -1862051995
       floral_307: 1703810845
-      floral_1839: -1035123955
+      floral_1679: -641899177
       floral_559: 900362957
       floral_1774: -1134214503
       floral_733: 1871498015
@@ -46568,9 +46580,9 @@ TextureImporter:
       floral_875: -439641456
       floral_1299: 1612985036
       floral_1336: -1589955596
-      floral_1522: 570706927
       floral_1574: 789253353
       floral_933: -1400185281
+      floral_1522: 570706927
       floral_108: 1385351823
       floral_255: 1242469282
       floral_950: -1488318124
@@ -46596,9 +46608,9 @@ TextureImporter:
       floral_1809: -676917408
       floral_4: 374544872
       floral_299: -975418721
-      floral_954: 1380530867
-      floral_498: -197385564
       floral_1685: 314409138
+      floral_498: -197385564
+      floral_954: 1380530867
       floral_1343: -757395186
       floral_599: -1083846951
       floral_1855: 1850719132
@@ -47050,8 +47062,8 @@ TextureImporter:
       floral_1459: -1830625724
       floral_743: -1823889268
       floral_404: -1575528464
-      floral_600: 2008238573
       floral_1642: 164814152
+      floral_600: 2008238573
       floral_1113: -994101876
       floral_1389: 737533479
       floral_1629: -114353710
@@ -47079,23 +47091,23 @@ TextureImporter:
       floral_1156: 68005450
       floral_168: -1053233650
       floral_388: 2029220303
-      floral_726: -749855114
       floral_1442: -191722723
+      floral_726: -749855114
       floral_290: -2109874038
       floral_1461: -569814805
       floral_103: 1631060478
-      floral_1628: -1607962902
-      floral_1466: 1732667179
       floral_1700: -1583227022
+      floral_1466: 1732667179
+      floral_1628: -1607962902
       floral_936: -495542030
       floral_656: -2074645264
       floral_748: -44731506
-      floral_775: 293538001
       floral_979: -844885709
+      floral_775: 293538001
       floral_2131: 1373848532
       floral_331: -1535365653
-      floral_903: -10226319
       floral_1634: -450822233
+      floral_903: -10226319
       floral_1415: -1577705672
       floral_1268: -1580600915
       floral_29: -666139998
@@ -47111,12 +47123,12 @@ TextureImporter:
       floral_471: -2112421521
       floral_1287: -450530958
       floral_595: -82409613
-      floral_1436: 1330353262
+      floral_1956: 608784859
       floral_1825: -616779477
       floral_475: -1619849448
       floral_1706: 629644839
       floral_1773: -1198121991
-      floral_1956: 608784859
+      floral_1436: 1330353262
       floral_560: -1325144193
       floral_652: 420926905
       floral_362: 1418646739
@@ -47162,8 +47174,8 @@ TextureImporter:
       floral_1045: -539550471
       floral_1818: 920895933
       floral_371: -1906779640
-      floral_1358: 1262772404
       floral_945: 1836702865
+      floral_1358: 1262772404
       floral_1929: 278950225
       floral_1944: 1378141816
       floral_1683: 1589713823
@@ -47196,14 +47208,14 @@ TextureImporter:
       floral_15: 1100683919
       floral_212: 709520741
       floral_1869: 1795532500
+      floral_1921: 417530883
       floral_1664: -1204650622
       floral_499: -1632080409
-      floral_1784: 1675931458
       floral_1492: 915363654
-      floral_223: -514880016
-      floral_1921: 417530883
-      floral_1714: -836203142
       floral_2114: 66882243
+      floral_223: -514880016
+      floral_1714: -836203142
+      floral_1784: 1675931458
       floral_647: 1757354730
       floral_1453: 2108357270
       floral_1862: 1743212792
@@ -47224,9 +47236,9 @@ TextureImporter:
       floral_761: -100269107
       floral_2076: 1350614750
       floral_219: -1388834914
-      floral_1002: 1760465499
       floral_1632: 15757678
       floral_1232: -280237349
+      floral_1002: 1760465499
       floral_1722: 206741779
       floral_1916: 820494386
       floral_1129: -936853010
@@ -48091,10 +48103,10 @@ TextureImporter:
       floral_1621: -374875386
       floral_1989: 166755649
       floral_1934: 1379635026
-      floral_1952: -2142829094
-      floral_264: -566767045
-      floral_980: -18234550
       floral_2038: -1606930523
+      floral_264: -566767045
+      floral_2108: -767763830
+      floral_1952: -2142829094
       floral_898: 981886476
       floral_1552: 1365094736
       floral_1064: 1437070574

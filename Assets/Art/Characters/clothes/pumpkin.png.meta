@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -67,7 +67,7 @@ TextureImporter:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
-    resizeAlgorithm: 0
+    resizeAlgorithm: 1
     textureFormat: -1
     textureCompression: 0
     compressionQuality: 50
@@ -118,6 +118,18 @@ TextureImporter:
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -9361,13 +9373,13 @@ TextureImporter:
       pumpkin_367: -808793993
       pumpkin_248: -1947442409
       pumpkin_104: -2038625535
-      pumpkin_54: 1877481975
-      pumpkin_228: 229260720
       pumpkin_130: -1395702059
       pumpkin_222: 432319028
-      pumpkin_356: -696648747
       pumpkin_325: 738808281
+      pumpkin_54: 1877481975
       pumpkin_298: 1504967349
+      pumpkin_356: -696648747
+      pumpkin_228: 229260720
       pumpkin_227: -1354404799
       pumpkin_201: 2114541279
       pumpkin_238: 731690089
@@ -9453,10 +9465,10 @@ TextureImporter:
       pumpkin_281: 1633749100
       pumpkin_303: 2113408047
       pumpkin_87: -1982216939
-      pumpkin_365: -56853875
       pumpkin_406: -445092884
       pumpkin_398: -283162000
       pumpkin_301: 536732281
+      pumpkin_365: -56853875
       pumpkin_44: -1274027158
       pumpkin_26: -302668958
       pumpkin_84: -470967048
@@ -9527,20 +9539,20 @@ TextureImporter:
       pumpkin_224: -1796804055
       pumpkin_426: -101361827
       pumpkin_71: 1655093684
-      pumpkin_88: 1075197990
       pumpkin_323: -960010342
+      pumpkin_88: 1075197990
       pumpkin_341: -1776213792
-      pumpkin_433: -1518202784
       pumpkin_25: -310494839
       pumpkin_375: 1017527164
+      pumpkin_433: -1518202784
       pumpkin_176: 818720043
       pumpkin_317: 1694731737
       pumpkin_324: 1242505783
       pumpkin_422: 816116542
       pumpkin_214: 2109657642
       pumpkin_177: 961947179
-      pumpkin_134: 1616066371
       pumpkin_357: 138308877
+      pumpkin_134: 1616066371
       pumpkin_52: -1328493774
       pumpkin_1: 796031060
       pumpkin_314: -1175065031

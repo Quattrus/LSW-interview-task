@@ -1198,7 +1198,7 @@ TextureImporter:
         width: 15
         height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1219,7 +1219,7 @@ TextureImporter:
         width: 15
         height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1240,7 +1240,7 @@ TextureImporter:
         width: 15
         height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1261,7 +1261,7 @@ TextureImporter:
         width: 15
         height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1269,6 +1269,111 @@ TextureImporter:
       bones: []
       spriteID: 0b10b7a4391eb694fb18ec16d6e32359
       internalID: -1570417483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: global_41
+      rect:
+        serializedVersion: 2
+        x: 3201
+        y: 1167
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e2aa538f02d42b448070f1f51616306
+      internalID: 1814798783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: global_42
+      rect:
+        serializedVersion: 2
+        x: 3216
+        y: 1167
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae2684f20fb33cc4dae9347a35d90e70
+      internalID: -638975160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: global_43
+      rect:
+        serializedVersion: 2
+        x: 1314
+        y: 1648
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2e3f8ac1e7acdd4697ef0783c75fee9
+      internalID: 2081266117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tv
+      rect:
+        serializedVersion: 2
+        x: 1669
+        y: 434
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 418c6647f6b13884cb9077131daddd40
+      internalID: 1568416358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: display
+      rect:
+        serializedVersion: 2
+        x: 1584
+        y: 831
+        width: 64
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 889d786eafefaf7488d549f9564822fc
+      internalID: -704961377
       vertices: []
       indices: 
       edges: []
@@ -1308,6 +1413,7 @@ TextureImporter:
       cabinet2: -482948074
       global_40: -1260524813
       global_18: -1537634020
+      global_42: -638975160
       global_26: -1807998418
       global_24: 1223042007
       global_32: -1961746948
@@ -1316,6 +1422,7 @@ TextureImporter:
       store_shelf: -840322524
       global_22: -488367110
       global_39: -1570417483
+      global_41: 1814798783
       cabinet1: -249261720
       global_19: 1931070844
       global_33: -140217323
@@ -1332,11 +1439,14 @@ TextureImporter:
       global_17: -1466827711
       global_21: 348056023
       global_15: -420319589
+      tv: 1568416358
       wall_shelf3: 1419555091
       global_2: 45064083
       wall_shelf1: -2134342729
       global_10: -980746067
+      display: -704961377
       global_29: 2015430437
+      global_43: 2081266117
       wall_shelf2: 441695456
   spritePackingTag: 
   pSDRemoveMatte: 0

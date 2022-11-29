@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -67,7 +67,7 @@ TextureImporter:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
-    resizeAlgorithm: 0
+    resizeAlgorithm: 1
     textureFormat: -1
     textureCompression: 0
     compressionQuality: 50
@@ -118,6 +118,18 @@ TextureImporter:
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -45933,6 +45945,7 @@ TextureImporter:
       dress _839: 6953238
       dress _1011: 833404018
       dress _499: 1939201396
+      dress _2116: -435123105
       dress _428: -157496832
       dress _265: -363686411
       dress _1672: 75602540
@@ -45948,27 +45961,27 @@ TextureImporter:
       dress _102: -1821832231
       dress _1286: 1085494882
       dress _1039: -1605325781
-      dress _1181: -1649334541
       dress _1479: 348355769
       dress _2107: 1214207419
       dress _819: 151192715
       dress _928: -66415725
       dress _175: 702078734
-      dress _522: 134560729
-      dress _673: -349088489
-      dress _955: -1269323988
       dress _1175: -1306669463
-      dress _478: -899150963
+      dress _673: -349088489
+      dress _1181: -1649334541
+      dress _955: -1269323988
       dress _529: 103838243
       dress _114: -1833044898
+      dress _478: -899150963
       dress _1090: 1019435348
-      dress _1476: 1944314157
+      dress _522: 134560729
       dress _1835: -361170766
-      dress _2091: 1670242771
+      dress _1476: 1944314157
       dress _990: -884921596
       dress _1373: -1024414830
       dress _1155: 139786366
       dress _1404: -1069308552
+      dress _2091: 1670242771
       dress _1061: 1475825664
       dress _790: -1513283072
       dress _2151: -1749961643
@@ -45977,7 +45990,6 @@ TextureImporter:
       dress _91: -922141354
       dress _1132: -54866146
       dress _106: -1402165555
-      dress _2116: -435123105
       dress _361: 1800023395
       dress _1625: 252786371
       dress _2143: 2077613997
@@ -45990,11 +46002,11 @@ TextureImporter:
       dress _1870: -1219997524
       dress _1945: 467527110
       dress _206: -761985203
-      dress _344: -1305624662
+      dress _1802: 208079482
       dress _1059: -943407841
       dress _2048: -133196559
-      dress _1802: 208079482
       dress _213: -1334402627
+      dress _344: -1305624662
       dress _1159: -23119457
       dress _1819: 1342208578
       dress _769: 2124339445
@@ -46179,29 +46191,29 @@ TextureImporter:
       dress _364: -1921042244
       dress _2100: 1359736729
       dress _1420: -904747433
+      dress _1929: -1161843312
       dress _717: -990004379
       dress _1620: 243913861
       dress _1003: -1189283759
       dress _1816: 1897354410
       dress _181: -91180605
+      dress _2110: 922423675
       dress _1427: 678608367
-      dress _1677: -357922807
       dress _647: -1815703650
       dress _1535: -1177854545
+      dress _1677: -357922807
       dress _1057: -615819861
       dress _1337: -1865816116
-      dress _1929: -1161843312
       dress _2078: -1197103135
       dress _1815: 1775548677
       dress _915: -2101829842
       dress _329: -422557643
-      dress _2110: 922423675
       dress _1043: -77548902
-      dress _1128: -1799092711
       dress _1955: 1032021543
+      dress _1128: -1799092711
       dress _260: -130661981
-      dress _442: -667786078
       dress _425: 1350944855
+      dress _442: -667786078
       dress _2071: -335261356
       dress _389: -1066584506
       dress _1243: -760470440
@@ -46220,26 +46232,26 @@ TextureImporter:
       dress _295: 1668157585
       dress _1242: -1527996300
       dress _633: 1344856735
-      dress _451: -1797458582
-      dress _1536: -885601077
       dress _1429: -1744049320
-      dress _1838: 388498015
+      dress _1536: -885601077
       dress _2008: -1454792687
+      dress _451: -1797458582
+      dress _2172: 1518829231
       dress _266: 577449740
       dress _602: -1514775528
-      dress _255: 1654469627
-      dress _703: 1923008539
+      dress _1932: 995440468
       dress _1333: 540547795
+      dress _2080: -265894510
       dress _125: -1855552805
       dress _667: -971206371
-      dress _1932: 995440468
+      dress _1838: 388498015
       dress _1111: 1981159652
+      dress _1906: -1530843900
+      dress _703: 1923008539
       dress _1197: -16832022
+      dress _255: 1654469627
       dress _625: -54453398
-      dress _2172: 1518829231
-      dress _1446: 794883612
       dress _171: 1354508872
-      dress _2080: -265894510
       dress _483: -1140716411
       dress _833: -790548877
       dress _746: 1334521414
@@ -46249,10 +46261,10 @@ TextureImporter:
       dress _1182: 476046126
       dress _1762: -1638828074
       dress _1088: -1825210181
+      dress _1446: 794883612
       dress _936: -307269973
       dress _612: 1072439850
       dress _1526: -2079255960
-      dress _1906: -1530843900
       dress _1578: -1361523856
       dress _1874: -415558212
       dress _875: 2132547771
@@ -46463,9 +46475,10 @@ TextureImporter:
       dress _965: 509177136
       dress _1973: -2097925733
       dress _880: -1782618998
+      dress _1316: -954929094
       dress _1071: -1207178918
-      dress _1252: 216148587
       dress _1045: -1447007121
+      dress _1252: 216148587
       dress _323: 739510714
       dress _164: 1814171247
       dress _1020: 1256435726
@@ -46474,7 +46487,6 @@ TextureImporter:
       dress _43: -1379053884
       dress _129: 694513245
       dress _789: 500419561
-      dress _1316: -954929094
       dress _689: 1882960337
       dress _259: -68110980
       dress _511: -649638914
@@ -46488,16 +46500,16 @@ TextureImporter:
       dress _155: -628577002
       dress _1374: 1012627592
       dress _1265: 1346862598
-      dress _1225: -1868991089
-      dress _1304: -399733909
+      dress _2112: 1098653870
+      dress _1748: 1142392251
       dress _526: 1478969824
       dress _1735: 1197007273
       dress _1032: -1817116301
-      dress _2006: -753983345
-      dress _1748: 1142392251
+      dress _1225: -1868991089
       dress _1647: 645796219
+      dress _1304: -399733909
       dress _170: 1535661511
-      dress _2112: 1098653870
+      dress _2176: -14775674
       dress _8: -1907732399
       dress _1552: 1434840709
       dress _957: 543500123
@@ -46511,7 +46523,6 @@ TextureImporter:
       dress _1332: 1985514269
       dress _1660: 523871328
       dress _1667: -1624042071
-      dress _2176: -14775674
       dress _840: 1423356377
       dress _1571: -1829330749
       dress _24: -1495901734
@@ -46520,16 +46531,17 @@ TextureImporter:
       dress _1106: 1448077673
       dress _179: 1751242013
       dress _71: 1489604926
+      dress _2006: -753983345
       dress _1: -543186487
       dress _1269: -1632419381
       dress _1530: 1889017848
-      dress _2035: -1683065972
       dress _2099: 853209572
       dress _657: -1466573325
       dress _1009: -660346063
       dress _648: 11549057
-      dress _1813: -1005968580
+      dress _2035: -1683065972
       dress _806: -2061048308
+      dress _1813: -1005968580
       dress _931: 1831221876
       dress _328: 1750904079
       dress _791: -414930015
@@ -46561,12 +46573,12 @@ TextureImporter:
       dress _291: 255291985
       dress _503: 335578324
       dress _787: 916796085
-      dress _1192: -496633273
-      dress _1169: -435461167
       dress _1320: 829943705
+      dress _1169: -435461167
+      dress _1192: -496633273
       dress _976: -210930056
-      dress _1318: 2006974893
       dress _1902: 472877883
+      dress _1318: 2006974893
       dress _1880: -1440120759
       dress _1899: 1677473459
       dress _572: -356797405
@@ -46588,14 +46600,14 @@ TextureImporter:
       dress _496: 974149718
       dress _495: -712658807
       dress _100: -377458169
-      dress _440: 1429284697
+      dress _1773: -2054003925
       dress _484: -1430683557
       dress _119: -2085544851
       dress _1368: -1621167817
       dress _1492: 2099524339
       dress _1122: 1834990975
       dress _1354: -1325224636
-      dress _1773: -2054003925
+      dress _440: 1429284697
       dress _1637: 1511377875
       dress _1075: 1674583612
       dress _1715: -1700881590
@@ -47068,14 +47080,14 @@ TextureImporter:
       dress _1103: 1692068976
       dress _892: 169939597
       dress _729: 622718528
-      dress _1013: -332104227
       dress _1262: -1660220102
+      dress _1547: 1877001532
       dress _1263: 1771286382
       dress _486: 198016673
       dress _1034: -279102801
       dress _1200: 249229063
       dress _1196: -1152509184
-      dress _1547: 1877001532
+      dress _1013: -332104227
       dress _135: -524635371
       dress _1752: -847423676
       dress _818: -493445883
@@ -47104,9 +47116,9 @@ TextureImporter:
       dress _1274: -792110078
       dress _1073: 2135137387
       dress _1517: -1698260954
-      dress _706: -1887121398
-      dress _1543: -2085654855
       dress _1733: -977776244
+      dress _1543: -2085654855
+      dress _706: -1887121398
       dress _827: 1958591510
       dress _1861: 2027484510
       dress _1533: 513087830
@@ -47129,9 +47141,9 @@ TextureImporter:
       dress _768: 739480556
       dress _1012: 1939739419
       dress _37: 1350841919
-      dress _877: -2084488263
       dress _1363: 820188110
       dress _1146: 1156264955
+      dress _877: -2084488263
       dress _1299: 898953670
       dress _2026: -167574189
       dress _2150: 1232230292
@@ -47184,8 +47196,8 @@ TextureImporter:
       dress _2138: -1811438670
       dress _584: 1405068426
       dress _741: 1863220924
-      dress _1573: -823758570
       dress _1742: -1891532238
+      dress _1573: -823758570
       dress _1198: 1603019722
       dress _776: -1246262946
       dress _2003: 1792070760
@@ -47196,15 +47208,15 @@ TextureImporter:
       dress _859: -2068099450
       dress _1143: -2078102510
       dress _285: 640178127
-      dress _1287: 1497628089
       dress _1540: -760168217
-      dress _1766: -43881378
       dress _2067: 1758187414
+      dress _1287: 1497628089
       dress _916: -1790914936
       dress _1321: -489638328
       dress _730: 897749215
       dress _523: 951615090
       dress _1288: -1849578375
+      dress _1766: -43881378
       dress _2093: 327410478
       dress _672: 1258654046
       dress _1056: 2089314421
@@ -47241,13 +47253,13 @@ TextureImporter:
       dress _566: -326415276
       dress _1144: 936848212
       dress _940: 286536619
-      dress _1259: 680501161
       dress _1002: -1330696703
+      dress _1259: 680501161
       dress _1185: 1856288145
       dress _595: -1812763166
-      dress _765: 177259226
       dress _829: 2035313100
       dress _795: 242526947
+      dress _765: 177259226
       dress _2070: 1230748296
       dress _1399: -1854631975
       dress _1523: 1929611737
@@ -47272,12 +47284,12 @@ TextureImporter:
       dress _1703: 1180562074
       dress _2061: -681130886
       dress _535: -1155052718
-      dress _1095: 1894802510
-      dress _1317: 1120933177
-      dress _782: -1624832200
-      dress _1347: 335212090
-      dress _2062: 424464817
       dress _1694: 324857477
+      dress _1095: 1894802510
+      dress _782: -1624832200
+      dress _1317: 1120933177
+      dress _2062: 424464817
+      dress _1347: 335212090
       dress _693: 1366251434
       dress _302: 1511450476
       dress _2046: -1458688147

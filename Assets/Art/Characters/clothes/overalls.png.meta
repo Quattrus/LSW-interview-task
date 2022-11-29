@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -67,7 +67,7 @@ TextureImporter:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
-    resizeAlgorithm: 0
+    resizeAlgorithm: 1
     textureFormat: -1
     textureCompression: 0
     compressionQuality: 50
@@ -118,6 +118,18 @@ TextureImporter:
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -45968,16 +45980,16 @@ TextureImporter:
       overalls_196: 68803530
       overalls_442: 1501576689
       overalls_634: 941616869
+      overalls_1014: 1782857288
       overalls_33: -1155283953
       overalls_1304: -1328236798
-      overalls_105: 1284344860
-      overalls_286: 3978283
-      overalls_1562: -2071370024
       overalls_1221: 1647643224
-      overalls_774: 1915324326
+      overalls_1562: -2071370024
       overalls_1714: 1494735457
+      overalls_105: 1284344860
       overalls_1581: 2059320523
-      overalls_1014: 1782857288
+      overalls_774: 1915324326
+      overalls_286: 3978283
       overalls_399: -1255317694
       overalls_1586: -136911110
       overalls_683: 156445549
@@ -46000,9 +46012,9 @@ TextureImporter:
       overalls_1916: 969410569
       overalls_1881: 1041870621
       overalls_335: -1855281666
-      overalls_1034: -894146614
       overalls_1850: -1247273088
       overalls_1860: 1341001273
+      overalls_1034: -894146614
       overalls_760: -1568335477
       overalls_870: 1410118747
       overalls_1879: -707799932
@@ -46056,16 +46068,16 @@ TextureImporter:
       overalls_647: -1810276117
       overalls_1420: -1783093685
       overalls_548: -738116584
-      overalls_248: 1298239144
-      overalls_990: 1255240375
       overalls_671: -1611503794
+      overalls_248: 1298239144
       overalls_2016: 1893570083
+      overalls_990: 1255240375
       overalls_1453: -629922881
-      overalls_651: -370422492
       overalls_1732: -595238464
+      overalls_651: -370422492
+      overalls_1919: 1722609734
       overalls_2104: 1358579159
       overalls_1346: -1051377987
-      overalls_1919: 1722609734
       overalls_782: 1694982896
       overalls_2139: -466567278
       overalls_251: -414108489
@@ -46195,8 +46207,8 @@ TextureImporter:
       overalls_1195: -644925852
       overalls_1758: -1023320051
       overalls_510: 536328106
-      overalls_1355: -2088741918
       overalls_1636: -809803151
+      overalls_1355: -2088741918
       overalls_1694: -1162510742
       overalls_1944: 153970732
       overalls_1398: -1808673110
@@ -46217,19 +46229,19 @@ TextureImporter:
       overalls_1287: 1777551556
       overalls_867: 1746206127
       overalls_578: -1064725693
-      overalls_892: 1071892646
-      overalls_187: -711521692
-      overalls_1578: -1304796529
       overalls_1546: -105393824
+      overalls_892: 1071892646
+      overalls_1578: -1304796529
+      overalls_187: -711521692
       overalls_1933: 1654537772
       overalls_391: 302428790
       overalls_1811: 1777955137
       overalls_50: -1172450196
-      overalls_754: -168015368
+      overalls_1936: -1697347218
       overalls_1836: -1767370557
       overalls_1272: -1401678244
       overalls_690: -2096436977
-      overalls_1936: -1697347218
+      overalls_754: -168015368
       overalls_2103: -1530988894
       overalls_1856: 1374814584
       overalls_739: 1895186272
@@ -46251,15 +46263,15 @@ TextureImporter:
       overalls_78: 1481597086
       overalls_750: -89099851
       overalls_1188: -739434081
-      overalls_34: 1663156277
-      overalls_1525: 200791273
       overalls_1323: -532296062
+      overalls_34: 1663156277
       overalls_1681: -1824581782
       overalls_1072: 1909197597
       overalls_1142: 895436712
       overalls_422: 392944059
       overalls_2024: 732844141
       overalls_771: -633475159
+      overalls_1525: 200791273
       overalls_762: -613365216
       overalls_1616: -587838995
       overalls_2179: -419881538
@@ -46494,15 +46506,15 @@ TextureImporter:
       overalls_1179: 1074006906
       overalls_910: 688107204
       overalls_569: 580343746
-      overalls_1039: -891260970
       overalls_1573: 1096830302
+      overalls_1039: -891260970
       overalls_822: -477517125
       overalls_1143: 1843304628
       overalls_1450: 297925229
-      overalls_427: 1390452622
-      overalls_1895: -883594700
-      overalls_667: -1929726800
       overalls_1911: 1624828735
+      overalls_427: 1390452622
+      overalls_667: -1929726800
+      overalls_1895: -883594700
       overalls_1277: 57055454
       overalls_259: 403949736
       overalls_1209: 389016320
@@ -46545,26 +46557,26 @@ TextureImporter:
       overalls_1494: -1617982709
       overalls_2041: 1621035448
       overalls_278: -1793173002
-      overalls_352: 1037667827
       overalls_595: -968226900
       overalls_1248: 144046718
+      overalls_352: 1037667827
       overalls_973: -237996134
       overalls_304: -885787288
       overalls_411: -226609702
       overalls_54: 1965336395
       overalls_626: 11691385
-      overalls_1523: -1740132511
       overalls_1869: 560132544
       overalls_325: 1893828798
       overalls_1108: -1515575578
+      overalls_1491: -28066558
+      overalls_1523: -1740132511
+      overalls_2148: 2016153726
       overalls_55: 1874743778
       overalls_767: -882435756
-      overalls_1491: -28066558
-      overalls_2148: 2016153726
       overalls_751: -1947962063
+      overalls_1484: -2062371630
       overalls_668: -1859628433
       overalls_1259: 1547812145
-      overalls_1484: -2062371630
       overalls_980: 879690662
       overalls_1401: -486846850
       overalls_1810: -167891159
@@ -46585,9 +46597,10 @@ TextureImporter:
       overalls_593: 778933484
       overalls_698: -60407378
       overalls_2116: 1287881483
+      overalls_1091: -334179485
       overalls_991: 1935652965
       overalls_396: -90545130
-      overalls_1091: -334179485
+      overalls_2121: 1532087862
       overalls_703: 1733827109
       overalls_1797: -1312101226
       overalls_424: -1648201441
@@ -46608,7 +46621,6 @@ TextureImporter:
       overalls_1661: -1666869964
       overalls_2175: 1425776081
       overalls_1356: 1756248883
-      overalls_2121: 1532087862
       overalls_183: -325108381
       overalls_1302: 1458554454
       overalls_1077: -1839260748
@@ -47033,27 +47045,27 @@ TextureImporter:
       overalls_1519: -1192077080
       overalls_1021: -367417693
       overalls_58: 1498132530
-      overalls_520: -203059934
       overalls_734: 51970137
       overalls_708: -1706561428
       overalls_419: -1588411451
       overalls_836: -1486488655
-      overalls_1160: 1556778448
+      overalls_520: -203059934
       overalls_837: 1378784944
       overalls_410: 915071113
+      overalls_1160: 1556778448
       overalls_674: 1140108358
       overalls_162: 1625269791
-      overalls_210: -1076020655
       overalls_336: -1224783933
-      overalls_506: -1395745967
       overalls_1134: 1777802300
+      overalls_506: -1395745967
+      overalls_1691: 195185413
       overalls_936: -1754425528
-      overalls_684: 2106993610
       overalls_1679: -1322911491
       overalls_1466: 386624186
       overalls_2166: 1648331130
-      overalls_1691: 195185413
+      overalls_210: -1076020655
       overalls_528: 78665884
+      overalls_684: 2106993610
       overalls_951: -1571998590
       overalls_1556: -1815300316
       overalls_1377: -700428405
@@ -47088,10 +47100,10 @@ TextureImporter:
       overalls_1364: 1611384875
       overalls_2017: 327880893
       overalls_1505: 1511625837
-      overalls_1683: -443773533
+      overalls_1733: -1239495910
       overalls_141: 1474044086
       overalls_1230: -1298277536
-      overalls_1733: -1239495910
+      overalls_1683: -443773533
       overalls_791: 155592366
       overalls_161: -1269098243
       overalls_2114: 837152149
@@ -47100,8 +47112,8 @@ TextureImporter:
       overalls_851: -721623498
       overalls_1396: 796501416
       overalls_535: -1669153488
-      overalls_759: -793907177
       overalls_880: -628617303
+      overalls_759: -793907177
       overalls_68: 1988285446
       overalls_988: -1075994846
       overalls_126: -270922444
@@ -47111,12 +47123,12 @@ TextureImporter:
       overalls_532: 247607765
       overalls_1089: 402390355
       overalls_1971: -2007081865
-      overalls_923: -2032593779
       overalls_1391: -993461030
+      overalls_2030: 510637722
       overalls_711: -1659137456
       overalls_1140: 919051229
       overalls_655: -1980879928
-      overalls_2030: 510637722
+      overalls_923: -2032593779
       overalls_1886: -662824394
       overalls_193: 604014787
       overalls_1934: -465750274
@@ -47137,20 +47149,20 @@ TextureImporter:
       overalls_749: -902914794
       overalls_2003: -770827117
       overalls_1207: -1973133589
-      overalls_467: -1166632132
-      overalls_172: -878780366
       overalls_1296: -791273708
-      overalls_1537: 1969706344
+      overalls_172: -878780366
       overalls_2126: -1308665438
+      overalls_467: -1166632132
       overalls_1593: 1938577664
       overalls_2171: 482050914
       overalls_729: 1067996621
       overalls_825: -2091936188
-      overalls_1440: 1352715666
+      overalls_1537: 1969706344
       overalls_811: -631994179
       overalls_1015: 1378808647
-      overalls_1608: -695505587
+      overalls_1440: 1352715666
       overalls_76: -2034630675
+      overalls_1608: -695505587
       overalls_2080: -1036630972
       overalls_433: -895039042
       overalls_1423: 2145877327
@@ -47190,15 +47202,15 @@ TextureImporter:
       overalls_916: 970448601
       overalls_1461: -24413047
       overalls_581: -1220842576
-      overalls_1210: -369395413
-      overalls_900: -27465647
       overalls_2073: 12099587
-      overalls_1081: -523339487
       overalls_1922: -1842709993
-      overalls_29: 1256222929
+      overalls_1210: -369395413
+      overalls_1081: -523339487
+      overalls_1984: 742686387
+      overalls_900: -27465647
       overalls_732: 1490255288
       overalls_768: 1873552290
-      overalls_1984: 742686387
+      overalls_29: 1256222929
       overalls_1858: -533690001
       overalls_2011: -1289497310
       overalls_1863: 523684308
@@ -47237,8 +47249,8 @@ TextureImporter:
       overalls_786: 756912266
       overalls_2161: -1885000452
       overalls_1051: 1813399857
-      overalls_1314: -1141471823
       overalls_1555: -684526275
+      overalls_1314: -1141471823
       overalls_429: 145153137
       overalls_1065: 1055135858
       overalls_147: 328347750
@@ -47249,22 +47261,22 @@ TextureImporter:
       overalls_594: 1544206630
       overalls_1510: 59476296
       overalls_1167: -316589367
-      overalls_1669: -589998464
       overalls_2032: 1006617060
-      overalls_2177: -563935259
+      overalls_1669: -589998464
       overalls_798: -1900461257
       overalls_688: -1628005003
       overalls_530: -1667693952
+      overalls_2177: -563935259
       overalls_1203: -563191321
       overalls_135: -1362601966
-      overalls_999: -653580816
       overalls_1283: 8645165
       overalls_2096: 634130197
+      overalls_999: -653580816
       overalls_989: -523628907
       overalls_1913: -494443038
       overalls_797: 583459307
-      overalls_1198: 485886689
       overalls_1910: 1238526739
+      overalls_1198: 485886689
       overalls_392: -777463594
       overalls_1048: -1047406694
       overalls_1375: 1328675258
@@ -47279,9 +47291,9 @@ TextureImporter:
       overalls_785: 1665112041
       overalls_1383: 264477561
       overalls_151: 457884308
-      overalls_1938: 1985826259
       overalls_1952: -891283995
       overalls_2059: 73344211
+      overalls_1938: 1985826259
       overalls_608: 327919345
       overalls_1433: 786785843
       overalls_122: 1520328729

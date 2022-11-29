@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -67,7 +67,7 @@ TextureImporter:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
-    resizeAlgorithm: 0
+    resizeAlgorithm: 1
     textureFormat: -1
     textureCompression: 0
     compressionQuality: 50
@@ -118,6 +118,18 @@ TextureImporter:
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -45982,14 +45994,14 @@ TextureImporter:
       sailor_2120: 936599086
       sailor_943: 879105587
       sailor_175: -2085422597
-      sailor_394: -49703180
       sailor_431: 2000561214
       sailor_251: -824660974
       sailor_1219: -2093758574
       sailor_567: -260232012
-      sailor_1243: 208662493
+      sailor_394: -49703180
       sailor_636: -1460084408
       sailor_1135: -355413977
+      sailor_1243: 208662493
       sailor_1147: -1401699973
       sailor_1501: 1712501426
       sailor_2083: 1851427220
@@ -46044,30 +46056,30 @@ TextureImporter:
       sailor_353: 985618078
       sailor_622: 881181664
       sailor_1460: -311605985
-      sailor_928: 211038066
       sailor_2179: 1817000451
+      sailor_928: 211038066
       sailor_429: 1844612604
       sailor_334: 545430457
       sailor_885: 1566480849
       sailor_1302: 1440373824
-      sailor_1621: -636885934
       sailor_1686: -1401054593
       sailor_1778: 1559566619
       sailor_1257: -115427058
       sailor_1638: -79943063
       sailor_119: 2057390855
-      sailor_494: -1280271374
-      sailor_1830: 1470977973
       sailor_672: 1583672089
+      sailor_1621: -636885934
       sailor_2104: 45100306
       sailor_6: -1525654855
       sailor_949: 583648761
-      sailor_1976: -1267385899
+      sailor_1830: 1470977973
       sailor_1276: 763820035
       sailor_2055: -1500679835
       sailor_1595: 1460933371
+      sailor_1976: -1267385899
       sailor_1507: 962387318
       sailor_1283: -1296193989
+      sailor_494: -1280271374
       sailor_317: -1204592300
       sailor_830: 215269082
       sailor_2011: 815001306
@@ -46079,16 +46091,16 @@ TextureImporter:
       sailor_790: -1584230058
       sailor_1958: -1831311764
       sailor_259: -854465810
-      sailor_424: 1628072852
       sailor_428: -1925444079
-      sailor_82: -951329190
-      sailor_560: 1008229079
-      sailor_815: 909148581
-      sailor_1887: 139644222
-      sailor_924: 596238226
       sailor_516: 1833920243
-      sailor_1433: 539296442
+      sailor_82: -951329190
+      sailor_815: 909148581
+      sailor_924: 596238226
+      sailor_1887: 139644222
       sailor_1896: 617913176
+      sailor_1433: 539296442
+      sailor_560: 1008229079
+      sailor_424: 1628072852
       sailor_1620: -665480171
       sailor_2075: -1442134344
       sailor_787: -1735801240
@@ -46211,22 +46223,22 @@ TextureImporter:
       sailor_204: 688576595
       sailor_316: -1926062776
       sailor_604: -713993042
-      sailor_627: -1705475716
+      sailor_2067: 200401644
       sailor_2009: -136334516
       sailor_700: -145204197
-      sailor_1220: -910466014
+      sailor_627: -1705475716
       sailor_106: 878758603
       sailor_158: -900376488
       sailor_997: -106667384
-      sailor_1273: -1286584850
       sailor_1861: 1564832031
-      sailor_2067: 200401644
       sailor_256: 662447654
       sailor_1379: 1284531693
       sailor_1428: -842334605
+      sailor_1220: -910466014
       sailor_811: 288880227
-      sailor_1270: 186429796
       sailor_2019: -2105404835
+      sailor_1270: 186429796
+      sailor_1273: -1286584850
       sailor_410: 1068363589
       sailor_1175: -1305882753
       sailor_1990: -1136471334
@@ -46556,8 +46568,8 @@ TextureImporter:
       sailor_1672: 1839688381
       sailor_129: -1243664896
       sailor_381: 690537353
-      sailor_492: 1064731590
       sailor_1191: 524302063
+      sailor_492: 1064731590
       sailor_359: -1392343050
       sailor_1224: -724992825
       sailor_1982: -2098750049
@@ -47041,14 +47053,14 @@ TextureImporter:
       sailor_312: -1971433309
       sailor_1512: -1888923382
       sailor_140: 1312722065
-      sailor_609: -1624809152
+      sailor_1593: -361249666
       sailor_1838: 1717968360
       sailor_397: 1804370863
       sailor_1107: -1371685606
       sailor_2031: -159903121
-      sailor_1593: -361249666
-      sailor_1536: 195580339
+      sailor_609: -1624809152
       sailor_2065: 1256959185
+      sailor_1536: 195580339
       sailor_1820: -1153763232
       sailor_1988: 1494573922
       sailor_449: -2047021269
@@ -47062,13 +47074,13 @@ TextureImporter:
       sailor_1221: 565085839
       sailor_1440: 1731288686
       sailor_715: 1388771373
-      sailor_1312: 1945683529
       sailor_2002: 1840470025
-      sailor_2148: -1126981194
+      sailor_1312: 1945683529
       sailor_740: -162934073
-      sailor_1285: 260366475
       sailor_1681: -1947783223
+      sailor_1285: 260366475
       sailor_1427: 1972582323
+      sailor_2148: -1126981194
       sailor_987: -602532000
       sailor_1870: 1059767286
       sailor_777: 222070258
@@ -47093,8 +47105,8 @@ TextureImporter:
       sailor_1527: 1233879599
       sailor_853: 1879294703
       sailor_222: 1165171961
-      sailor_708: 1467170982
       sailor_1375: 290105149
+      sailor_708: 1467170982
       sailor_451: 297480596
       sailor_635: -141202549
       sailor_2022: -1901791329
@@ -47117,15 +47129,15 @@ TextureImporter:
       sailor_1917: -617294706
       sailor_1934: 328181967
       sailor_71: -784826974
-      sailor_1168: 60958662
       sailor_1635: -151418694
-      sailor_1416: -1327961384
       sailor_1438: -1485064325
       sailor_1867: 1731571777
       sailor_1106: 1202176709
       sailor_1132: -1093889067
+      sailor_1168: 60958662
       sailor_1231: -1388540672
       sailor_1408: -2102968240
+      sailor_1416: -1327961384
       sailor_195: 939013608
       sailor_511: -1743343273
       sailor_296: 1685166986
@@ -47142,22 +47154,22 @@ TextureImporter:
       sailor_1061: -242592065
       sailor_1229: 1296005444
       sailor_1400: 2116297802
+      sailor_1950: 1873606784
       sailor_131: 1125084961
       sailor_230: 1866492610
       sailor_103: 1816455562
       sailor_1882: -1284583191
-      sailor_1950: 1873606784
       sailor_113: -389775866
       sailor_617: 2056116576
       sailor_1713: -166044639
-      sailor_1166: -1604440657
       sailor_1762: 729438179
+      sailor_1166: -1604440657
       sailor_1655: -1679609884
       sailor_641: 1609914992
       sailor_657: 285343371
+      sailor_860: -696354093
       sailor_824: 228835493
       sailor_1115: 1818030332
-      sailor_860: -696354093
       sailor_1504: -1474012457
       sailor_1253: -72705063
       sailor_776: -1055076086
@@ -47181,8 +47193,8 @@ TextureImporter:
       sailor_1968: -19812564
       sailor_253: -2004351800
       sailor_2039: 269660079
-      sailor_1826: 320065249
       sailor_2040: 181281820
+      sailor_1826: 320065249
       sailor_1825: -1706846323
       sailor_20: 2144276844
       sailor_94: -693804916
@@ -47192,11 +47204,11 @@ TextureImporter:
       sailor_945: -1673006950
       sailor_985: -1986710258
       sailor_638: 1211073441
+      sailor_1885: -1118846750
       sailor_382: 1781327097
       sailor_1759: 823753359
       sailor_210: 713999636
       sailor_689: -1918878053
-      sailor_1885: -1118846750
       sailor_384: 879442667
       sailor_879: -1580372739
       sailor_402: -1541803496
@@ -47228,31 +47240,31 @@ TextureImporter:
       sailor_380: 429316765
       sailor_484: 831106469
       sailor_1037: -1846410944
-      sailor_1011: -323773651
-      sailor_1192: -1916827769
       sailor_1745: 1317611500
-      sailor_1492: -482682753
-      sailor_318: 2115593155
+      sailor_1192: -1916827769
       sailor_1986: 277604386
+      sailor_1011: -323773651
+      sailor_318: 2115593155
+      sailor_2047: -1604133009
       sailor_1646: 1207970052
       sailor_1642: 1102399051
       sailor_1462: 1567363725
+      sailor_1492: -482682753
       sailor_852: -355536239
-      sailor_2047: -1604133009
       sailor_757: -87454344
       sailor_807: 1214101173
       sailor_265: 804041431
       sailor_344: 474211596
+      sailor_1827: 1880583168
       sailor_409: 778973319
-      sailor_18: 829012429
       sailor_1266: 643425187
       sailor_1564: 2108037068
-      sailor_1342: -1100934445
+      sailor_18: 829012429
       sailor_647: -967647098
       sailor_1341: 618387428
       sailor_755: 1670983400
       sailor_1726: 1076317081
-      sailor_1827: 1880583168
+      sailor_1342: -1100934445
       sailor_660: -105289370
       sailor_519: 806478109
       sailor_41: -1782437003
@@ -47278,12 +47290,12 @@ TextureImporter:
       sailor_1513: -1544147968
       sailor_876: 823621727
       sailor_437: 746983389
-      sailor_866: -1909521038
       sailor_1442: -1252819754
-      sailor_472: 91877510
+      sailor_866: -1909521038
       sailor_661: -96835600
-      sailor_2005: -341781491
+      sailor_472: 91877510
       sailor_8: -1051339137
+      sailor_2005: -341781491
       sailor_1007: 1993673874
       sailor_1032: -170730642
       sailor_1376: -831902162

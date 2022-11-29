@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -67,7 +67,7 @@ TextureImporter:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
-    resizeAlgorithm: 0
+    resizeAlgorithm: 1
     textureFormat: -1
     textureCompression: 0
     compressionQuality: 50
@@ -118,6 +118,18 @@ TextureImporter:
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -9323,9 +9335,9 @@ TextureImporter:
       clown_245: -725046096
       clown_144: -1261283232
       clown_165: -500734503
-      clown_219: 1942939310
       clown_333: 1362078268
       clown_206: 1939868506
+      clown_219: 1942939310
       clown_310: -1296273378
       clown_244: 779233665
       clown_274: -553639688
@@ -9346,6 +9358,7 @@ TextureImporter:
       clown_123: 745414725
       clown_236: 792159380
       clown_299: 289208008
+      clown_340: 1266550216
       clown_168: 963421082
       clown_319: -369926049
       clown_324: -1572644546
@@ -9353,7 +9366,6 @@ TextureImporter:
       clown_118: -744660213
       clown_139: 478459623
       clown_160: 1385937733
-      clown_340: 1266550216
       clown_71: -2082905436
       clown_22: 95709371
       clown_416: -1609199350
@@ -9416,8 +9428,8 @@ TextureImporter:
       clown_199: -654603368
       clown_169: 1250906588
       clown_350: 2140876597
-      clown_266: -924966660
       clown_357: 1518991105
+      clown_266: -924966660
       clown_297: -1713827617
       clown_14: -1214412756
       clown_282: 889970210
@@ -9427,11 +9439,11 @@ TextureImporter:
       clown_131: -1948586276
       clown_208: 687886973
       clown_146: 1047166037
-      clown_356: -1640531960
+      clown_421: 23253091
       clown_159: 1313992143
       clown_431: 1679731373
+      clown_356: -1640531960
       clown_196: -1023144802
-      clown_421: 23253091
       clown_413: -1848336318
       clown_127: -1294072957
       clown_101: -881804811
@@ -9439,15 +9451,14 @@ TextureImporter:
       clown_6: 891743676
       clown_383: 76589889
       clown_192: -1348457728
-      clown_241: 685350968
       clown_376: -1023817469
+      clown_241: 685350968
       clown_115: -1186926685
-      clown_93: 113730477
-      clown_133: -1911162083
       clown_197: -57305071
-      clown_185: 1709390156
+      clown_133: -1911162083
+      clown_93: 113730477
       clown_51: 1801759116
-      clown_280: 95805187
+      clown_185: 1709390156
       clown_194: 859157591
       clown_318: 451797656
       clown_124: 1727212701
@@ -9458,6 +9469,7 @@ TextureImporter:
       clown_386: -1888414626
       clown_382: -2130287422
       clown_190: 2030752366
+      clown_280: 95805187
       clown_255: 2040094142
       clown_72: -1507509844
       clown_346: -924462863
@@ -9554,13 +9566,12 @@ TextureImporter:
       clown_32: -1339887140
       clown_170: 1508835982
       clown_86: -848478381
+      clown_402: -296145259
       clown_95: 1035212834
-      clown_217: -714510682
       clown_4: 1533049597
       clown_204: 1947271094
-      clown_347: 80518614
+      clown_217: -714510682
       clown_418: 287706803
-      clown_402: -296145259
       clown_18: 1035147605
       clown_136: -434753314
       clown_426: -332164950
@@ -9570,6 +9581,7 @@ TextureImporter:
       clown_37: -384700425
       clown_283: 1690739439
       clown_290: 1788095752
+      clown_347: 80518614
       clown_64: 490749410
       clown_65: 587737176
       clown_12: 1102794137
@@ -9577,9 +9589,9 @@ TextureImporter:
       clown_399: -1623046797
       clown_345: -1647700646
       clown_220: 1397454664
-      clown_289: -1428328012
       clown_78: 371305675
       clown_292: -34823736
+      clown_289: -1428328012
       clown_272: -1559772395
       clown_370: 1370229226
       clown_164: -441141715
@@ -9615,9 +9627,9 @@ TextureImporter:
       clown_279: -255920205
       clown_96: 785552386
       clown_150: 248385858
+      clown_313: -1362262355
       clown_210: -1699396675
       clown_249: 603111306
-      clown_313: -1362262355
       clown_94: 136833973
       clown_381: -464981838
       clown_353: 705063491

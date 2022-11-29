@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -67,7 +67,7 @@ TextureImporter:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
-    resizeAlgorithm: 0
+    resizeAlgorithm: 1
     textureFormat: -1
     textureCompression: 0
     compressionQuality: 50
@@ -118,6 +118,18 @@ TextureImporter:
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -43822,7 +43834,7 @@ TextureImporter:
       pants_suit_1633: 78604549
       pants_suit_3: -1442345465
       pants_suit_1037: 142209346
-      pants_suit_1839: -1602100604
+      pants_suit_1496: -391103049
       pants_suit_1797: 367902024
       pants_suit_1327: -1838871256
       pants_suit_1356: 2053783405
@@ -43891,7 +43903,6 @@ TextureImporter:
       pants_suit_39: -1025542600
       pants_suit_778: 945943179
       pants_suit_1761: 1169907168
-      pants_suit_1190: -1728425136
       pants_suit_1434: -832111688
       pants_suit_1080: -1351792005
       pants_suit_2036: 905357517
@@ -43899,15 +43910,16 @@ TextureImporter:
       pants_suit_1896: 1732628995
       pants_suit_734: 1239897734
       pants_suit_676: -174105006
+      pants_suit_1190: -1728425136
       pants_suit_2074: 865591274
-      pants_suit_1036: -1659072554
       pants_suit_1220: -992533361
       pants_suit_1707: 260406194
-      pants_suit_2030: 1831954304
+      pants_suit_1036: -1659072554
       pants_suit_1207: 2045503003
+      pants_suit_2030: 1831954304
       pants_suit_664: -1872434820
-      pants_suit_1383: -695472416
       pants_suit_1876: 1231184220
+      pants_suit_1383: -695472416
       pants_suit_907: 235733783
       pants_suit_121: -670734097
       pants_suit_1678: -399455574
@@ -44086,9 +44098,9 @@ TextureImporter:
       pants_suit_756: -354478310
       pants_suit_952: -1953427756
       pants_suit_1231: -1067923132
+      pants_suit_1721: 437023469
       pants_suit_176: -807674407
       pants_suit_894: 402375489
-      pants_suit_1721: 437023469
       pants_suit_1667: -1679928439
       pants_suit_1700: -8010386
       pants_suit_1921: -37420882
@@ -44100,34 +44112,34 @@ TextureImporter:
       pants_suit_1621: 2129308215
       pants_suit_1598: -27342165
       pants_suit_295: -1557470221
-      pants_suit_317: 1436621776
-      pants_suit_403: 447449814
       pants_suit_375: -1569808243
+      pants_suit_317: 1436621776
+      pants_suit_716: -1214974652
       pants_suit_88: -1229986977
       pants_suit_5: -955233088
-      pants_suit_716: -1214974652
-      pants_suit_449: -1794603774
-      pants_suit_289: -2137913870
-      pants_suit_578: -1316744663
-      pants_suit_1991: -727323337
-      pants_suit_1283: -1598324981
-      pants_suit_1788: 620762792
-      pants_suit_1098: 434525287
-      pants_suit_1528: 1952221925
       pants_suit_1832: 52486255
-      pants_suit_891: -1353538093
-      pants_suit_7: 1285627891
+      pants_suit_403: 447449814
+      pants_suit_289: -2137913870
+      pants_suit_1991: -727323337
+      pants_suit_1788: 620762792
       pants_suit_2078: 177206891
-      pants_suit_1550: 195660229
+      pants_suit_1098: 434525287
+      pants_suit_578: -1316744663
+      pants_suit_1528: 1952221925
+      pants_suit_449: -1794603774
+      pants_suit_7: 1285627891
+      pants_suit_891: -1353538093
       pants_suit_1705: 367200499
       pants_suit_110: -1509606685
       pants_suit_299: -218693800
       pants_suit_677: 1120421365
       pants_suit_1830: 1330311477
+      pants_suit_1283: -1598324981
       pants_suit_1416: 1011964438
       pants_suit_1862: -2064361357
       pants_suit_1784: 266762189
       pants_suit_747: 2027184762
+      pants_suit_1550: 195660229
       pants_suit_986: -414594554
       pants_suit_947: -563991855
       pants_suit_372: 240379116
@@ -44137,11 +44149,11 @@ TextureImporter:
       pants_suit_1373: 473247286
       pants_suit_1377: 1562974666
       pants_suit_268: 1077379587
-      pants_suit_1720: 631790431
+      pants_suit_1982: 2009395421
       pants_suit_1681: 502133054
       pants_suit_1774: -853014709
       pants_suit_1522: 798929142
-      pants_suit_1982: 2009395421
+      pants_suit_1720: 631790431
       pants_suit_640: -1423826808
       pants_suit_886: 1973542437
       pants_suit_1600: 179009050
@@ -44347,8 +44359,9 @@ TextureImporter:
       pants_suit_359: 1955511543
       pants_suit_1095: 1001660896
       pants_suit_1433: 1054973894
-      pants_suit_683: 742433521
       pants_suit_1673: 1839204884
+      pants_suit_683: 742433521
+      pants_suit_1975: -747005055
       pants_suit_631: 1340433972
       pants_suit_480: -643561437
       pants_suit_97: 962801329
@@ -44356,7 +44369,6 @@ TextureImporter:
       pants_suit_1120: 1670296384
       pants_suit_2052: 453088804
       pants_suit_32: -1154365195
-      pants_suit_1975: -747005055
       pants_suit_315: 1233396923
       pants_suit_1469: -631017625
       pants_suit_1048: -1206904369
@@ -44368,17 +44380,17 @@ TextureImporter:
       pants_suit_1088: 633448825
       pants_suit_159: -1340738789
       pants_suit_393: 1967115380
-      pants_suit_162: 211753808
-      pants_suit_538: 696241079
       pants_suit_1787: -2035511006
+      pants_suit_538: 696241079
+      pants_suit_162: 211753808
       pants_suit_1201: 119313237
-      pants_suit_1280: -1555726731
+      pants_suit_1604: -1184895540
       pants_suit_1084: -37806262
       pants_suit_713: -1018622390
       pants_suit_1055: -346795211
       pants_suit_455: 1416804572
       pants_suit_275: 682417081
-      pants_suit_1604: -1184895540
+      pants_suit_1280: -1555726731
       pants_suit_1983: -640655560
       pants_suit_622: 888467359
       pants_suit_1394: -1883636823
@@ -44428,8 +44440,8 @@ TextureImporter:
       pants_suit_278: 530330395
       pants_suit_1759: 275828542
       pants_suit_114: -335256278
-      pants_suit_494: -1301499744
       pants_suit_769: 1101418159
+      pants_suit_494: -1301499744
       pants_suit_1980: 1854897871
       pants_suit_233: 824035018
       pants_suit_1978: 1792224553
@@ -44447,11 +44459,11 @@ TextureImporter:
       pants_suit_1651: 517060806
       pants_suit_1655: 451197320
       pants_suit_1326: 1706327233
+      pants_suit_1531: -1881213837
       pants_suit_257: -148014685
       pants_suit_1506: 1244010093
-      pants_suit_1531: -1881213837
-      pants_suit_353: -617503383
       pants_suit_2000: 1427589327
+      pants_suit_353: -617503383
       pants_suit_457: -674132073
       pants_suit_525: 1145868801
       pants_suit_201: 187568610
@@ -44495,8 +44507,8 @@ TextureImporter:
       pants_suit_1476: -1203103379
       pants_suit_493: -1454615704
       pants_suit_902: 2029930745
-      pants_suit_1187: -1795613521
       pants_suit_1947: -912177025
+      pants_suit_1187: -1795613521
       pants_suit_53: -183986701
       pants_suit_1557: -1657848577
       pants_suit_762: -374908217
@@ -44833,12 +44845,12 @@ TextureImporter:
       pants_suit_1025: -486612025
       pants_suit_2064: 599920668
       pants_suit_651: 1275042473
+      pants_suit_1028: -890358524
       pants_suit_539: -1867920691
       pants_suit_227: 663681970
       pants_suit_653: 2025194021
       pants_suit_1277: -1966550309
       pants_suit_1807: 238864340
-      pants_suit_1028: -890358524
       pants_suit_1629: -748653515
       pants_suit_205: -229534377
       pants_suit_522: -1457131945
@@ -44863,13 +44875,13 @@ TextureImporter:
       pants_suit_466: -1123569781
       pants_suit_1519: -211446602
       pants_suit_344: 723979063
-      pants_suit_441: 2106822627
+      pants_suit_1732: -1608322341
       pants_suit_1217: 832600686
+      pants_suit_441: 2106822627
       pants_suit_1337: 681243103
       pants_suit_108: 1460604061
       pants_suit_958: -1240535594
       pants_suit_1690: -273591225
-      pants_suit_1732: -1608322341
       pants_suit_367: 553101801
       pants_suit_837: 1897482778
       pants_suit_1429: 2074843819
@@ -44935,9 +44947,9 @@ TextureImporter:
       pants_suit_1510: -719680388
       pants_suit_339: 1414709849
       pants_suit_183: 1320707309
+      pants_suit_1052: 311779324
       pants_suit_137: -1242925048
       pants_suit_1553: 1672918601
-      pants_suit_1052: 311779324
       pants_suit_898: 1380224859
       pants_suit_1171: -1959962052
       pants_suit_1229: 600707943
@@ -44965,9 +44977,8 @@ TextureImporter:
       pants_suit_1210: 519466981
       pants_suit_481: 2069156395
       pants_suit_223: -1509473563
-      pants_suit_356: -974566302
-      pants_suit_1754: 1738207643
       pants_suit_594: 1102963708
+      pants_suit_1754: 1738207643
       pants_suit_485: -513463460
       pants_suit_1296: -1593626672
       pants_suit_77: 621104697
@@ -44980,6 +44991,7 @@ TextureImporter:
       pants_suit_791: -1318699805
       pants_suit_203: -1446714480
       pants_suit_1993: 2000673715
+      pants_suit_356: -974566302
       pants_suit_397: -1868927593
       pants_suit_1884: -1947448956
       pants_suit_931: -2046268726
@@ -44988,22 +45000,22 @@ TextureImporter:
       pants_suit_535: -1007864393
       pants_suit_672: -945989284
       pants_suit_1170: -1728598577
+      pants_suit_1817: -964473025
       pants_suit_997: 1628868210
       pants_suit_702: 915119236
       pants_suit_728: -1244136402
       pants_suit_1686: -460711590
-      pants_suit_1817: -964473025
       pants_suit_1443: -1176829337
       pants_suit_1910: -291952074
       pants_suit_1465: -2043266186
       pants_suit_107: 613054725
       pants_suit_484: -152824547
       pants_suit_811: 607685970
-      pants_suit_820: 1540887045
       pants_suit_879: 1140273721
       pants_suit_1665: -491973985
       pants_suit_1335: -1434614946
       pants_suit_1300: 181165451
+      pants_suit_820: 1540887045
       pants_suit_6: -2018161087
       pants_suit_1082: -533156884
       pants_suit_1741: -1722284298
@@ -45031,12 +45043,12 @@ TextureImporter:
       pants_suit_70: 1986784119
       pants_suit_767: -278008361
       pants_suit_1375: -1359235018
-      pants_suit_1004: 335145822
       pants_suit_1286: 1842249236
       pants_suit_140: 207587846
       pants_suit_974: 640686982
       pants_suit_546: -1560401336
       pants_suit_1075: -351508186
+      pants_suit_1004: 335145822
       pants_suit_40: -702115041
       pants_suit_800: 1416028799
       pants_suit_884: -1361188003
@@ -45045,8 +45057,8 @@ TextureImporter:
       pants_suit_380: 1138949375
       pants_suit_1336: -1537961527
       pants_suit_195: 1623048407
-      pants_suit_434: 807016711
       pants_suit_1164: 942288523
+      pants_suit_434: 807016711
       pants_suit_1462: 167161388
       pants_suit_1582: -1137674578
       pants_suit_206: 388666255
@@ -45064,8 +45076,8 @@ TextureImporter:
       pants_suit_993: -633084763
       pants_suit_495: 1043540589
       pants_suit_557: -875684320
-      pants_suit_1385: -1177407499
       pants_suit_1538: 220202490
+      pants_suit_1385: -1177407499
       pants_suit_1873: -352147093
       pants_suit_264: -1473957608
       pants_suit_2016: 2006023586
@@ -45079,26 +45091,26 @@ TextureImporter:
       pants_suit_1288: -1241284422
       pants_suit_1388: -1433961653
       pants_suit_249: 587079320
-      pants_suit_842: 1022676208
       pants_suit_1214: 985937605
       pants_suit_757: -1570244890
       pants_suit_248: -321518683
       pants_suit_1521: -1810759394
-      pants_suit_1869: 900589386
+      pants_suit_842: 1022676208
       pants_suit_798: -577558678
+      pants_suit_1869: 900589386
       pants_suit_642: -975497490
       pants_suit_136: -1883059012
       pants_suit_1205: -1155167382
+      pants_suit_1627: -1329999418
       pants_suit_277: -322898412
-      pants_suit_2061: 657536097
       pants_suit_432: 1943357681
       pants_suit_2070: -1900208404
       pants_suit_17: -627776403
-      pants_suit_1627: -1329999418
       pants_suit_736: -677126904
       pants_suit_65: 2093819152
-      pants_suit_580: -2004556599
+      pants_suit_2061: 657536097
       pants_suit_1177: 2013424366
+      pants_suit_580: -2004556599
       pants_suit_541: -1002856331
       pants_suit_1009: 863389552
       pants_suit_1902: 788934976
@@ -45121,14 +45133,14 @@ TextureImporter:
       pants_suit_29: 157795520
       pants_suit_1495: -819308585
       pants_suit_852: -659018960
-      pants_suit_556: 151704123
-      pants_suit_1174: -1552094055
-      pants_suit_1159: 1084085061
       pants_suit_1795: 863334697
       pants_suit_2027: -772386263
+      pants_suit_1174: -1552094055
+      pants_suit_556: 151704123
       pants_suit_681: -2137792782
-      pants_suit_1526: 813348706
       pants_suit_1560: 2120396549
+      pants_suit_1526: 813348706
+      pants_suit_1159: 1084085061
       pants_suit_1638: -1429143388
       pants_suit_526: -998054017
       pants_suit_860: -752674132
@@ -45896,8 +45908,8 @@ TextureImporter:
       pants_suit_1955: 2062263234
       pants_suit_1794: -895813289
       pants_suit_51: 1989295699
+      pants_suit_1839: -1602100604
       pants_suit_501: 1609151952
-      pants_suit_1496: -391103049
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -67,7 +67,7 @@ TextureImporter:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
-    resizeAlgorithm: 0
+    resizeAlgorithm: 1
     textureFormat: -1
     textureCompression: 0
     compressionQuality: 50
@@ -118,6 +118,18 @@ TextureImporter:
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -46895,8 +46907,8 @@ TextureImporter:
       shoes_2129: 1952601706
       shoes_699: 191066859
       shoes_111: -1689629915
-      shoes_923: -1066422557
       shoes_791: -1940420161
+      shoes_923: -1066422557
       shoes_925: 1848832119
       shoes_917: 650846654
       shoes_634: 1357999770
@@ -47149,7 +47161,6 @@ TextureImporter:
       shoes_443: 52992314
       shoes_1721: 1153133853
       shoes_24: -1556705237
-      shoes_988: -234992208
       shoes_2164: -1945124673
       shoes_915: 1418956551
       shoes_2108: -72200432
@@ -47158,13 +47169,14 @@ TextureImporter:
       shoes_1586: 49790349
       shoes_1040: 1790368135
       shoes_2000: 1147505384
-      shoes_1459: 2147133108
+      shoes_988: -234992208
       shoes_1181: 388895372
       shoes_297: -1286657742
       shoes_526: 935460577
       shoes_1080: 1271406148
       shoes_1359: 51571791
       shoes_890: 1912517189
+      shoes_1459: 2147133108
       shoes_2002: 1611413945
       shoes_1601: -780232852
       shoes_1575: -1124872771
@@ -47186,25 +47198,24 @@ TextureImporter:
       shoes_1479: -621399349
       shoes_2035: -1510663330
       shoes_1058: -1737776694
-      shoes_1462: 1405792823
       shoes_1558: -1663429314
+      shoes_1622: 1764437599
       shoes_1: 1239082101
       shoes_1225: -81947815
-      shoes_1622: 1764437599
+      shoes_1900: -1795388282
       shoes_419: -769113084
       shoes_446: -355971410
       shoes_69: -1339546627
-      shoes_1096: 277678841
+      shoes_1798: -644635478
+      shoes_1462: 1405792823
       shoes_1764: 1412764872
       shoes_800: -344646127
-      shoes_1926: -191563349
+      shoes_1096: 277678841
       shoes_1492: 1133763161
-      shoes_1798: -644635478
       shoes_425: -2102340371
       shoes_56: -500215328
-      shoes_1900: -1795388282
-      shoes_525: 276543879
       shoes_2019: -897920958
+      shoes_525: 276543879
       shoes_1168: -997448863
       shoes_344: 1977611623
       shoes_478: -1053147379
@@ -47222,10 +47233,11 @@ TextureImporter:
       shoes_1237: -964881859
       shoes_2057: 1080487113
       shoes_1739: 626597556
+      shoes_1926: -191563349
       shoes_1889: -2135543681
+      shoes_1959: 203727029
       shoes_22: -1444297658
       shoes_593: -683799105
-      shoes_1959: 203727029
       shoes_528: 848156277
       shoes_1104: -1748566769
       shoes_355: 922666883
@@ -47239,11 +47251,11 @@ TextureImporter:
       shoes_1251: -1776048443
       shoes_1491: 2112407774
       shoes_591: -1303267865
-      shoes_1199: -1199887886
-      shoes_114: 1187697834
-      shoes_1379: -582429220
       shoes_1882: -651756811
+      shoes_114: 1187697834
       shoes_2066: -516002902
+      shoes_1379: -582429220
+      shoes_1199: -1199887886
       shoes_2034: -1412553677
       shoes_831: -1539308599
       shoes_880: -1673567547
@@ -47738,26 +47750,26 @@ TextureImporter:
       shoes_1381: -1920360620
       shoes_976: -1109070990
       shoes_1169: -1251220079
-      shoes_2083: -817629584
+      shoes_2155: 912460283
       shoes_1179: -999947269
       shoes_640: 2131468245
-      shoes_2155: 912460283
       shoes_1595: 1091470486
+      shoes_2083: -817629584
       shoes_968: -758191429
-      shoes_1725: -1018305863
       shoes_2097: 1088344588
-      shoes_1813: -636854963
+      shoes_1725: -1018305863
       shoes_147: 523676578
       shoes_2185: -1566061326
       shoes_354: -355427942
       shoes_369: -479708806
       shoes_54: 491053855
       shoes_1306: -1399961702
-      shoes_1864: -880343236
-      shoes_863: -809155543
       shoes_2094: -1166147990
+      shoes_863: -809155543
+      shoes_1813: -636854963
       shoes_487: 481481744
       shoes_1662: -679318699
+      shoes_1864: -880343236
       shoes_1909: -304198942
       shoes_1665: 1758836378
       shoes_1095: -729550200
@@ -47806,10 +47818,10 @@ TextureImporter:
       shoes_687: -1413660493
       shoes_120: 1925605427
       shoes_1906: -1161045317
-      shoes_1007: 859909581
+      shoes_1756: -1337410551
       shoes_1227: -1347468289
       shoes_47: 1525099004
-      shoes_1756: -1337410551
+      shoes_1007: 859909581
       shoes_2139: -1388332557
       shoes_1801: -1742382089
       shoes_23: -1052605489
@@ -47839,8 +47851,8 @@ TextureImporter:
       shoes_1504: 348793375
       shoes_1061: 2033158980
       shoes_233: 225566607
-      shoes_1368: 395945314
       shoes_1624: 106547880
+      shoes_1368: 395945314
       shoes_1108: 703701653
       shoes_1280: 902105084
       shoes_1590: -50440815
@@ -47850,9 +47862,9 @@ TextureImporter:
       shoes_1666: -1187113575
       shoes_2007: 909070350
       shoes_220: -1864032944
+      shoes_2154: 1879535176
       shoes_5: -1629202016
       shoes_168: -1601863376
-      shoes_2154: 1879535176
       shoes_582: 2130800333
       shoes_569: 1602232279
       shoes_1877: 780002064
@@ -47863,8 +47875,8 @@ TextureImporter:
       shoes_249: -7372543
       shoes_1201: -1069333650
       shoes_1340: 1851314191
-      shoes_1151: 756735688
       shoes_1692: 1495089982
+      shoes_1151: 756735688
       shoes_565: 840402947
       shoes_1431: -720046811
       shoes_556: 1949174045
@@ -47910,19 +47922,19 @@ TextureImporter:
       shoes_866: 915015588
       shoes_1217: -418173188
       shoes_60: -1589962730
-      shoes_116: 447255879
       shoes_1200: 1179189024
-      shoes_895: 1088511564
+      shoes_116: 447255879
       shoes_1602: 1119719608
-      shoes_1627: 1408787579
+      shoes_895: 1088511564
       shoes_1013: 2034013775
       shoes_271: 309904931
-      shoes_979: 915860088
+      shoes_1310: 585928401
       shoes_518: 361568189
       shoes_1748: 1307336529
       shoes_530: 1965150268
       shoes_854: 1695623570
-      shoes_1310: 585928401
+      shoes_979: 915860088
+      shoes_1627: 1408787579
       shoes_348: 1995124274
       shoes_975: -2132486416
       shoes_1654: 548210511
