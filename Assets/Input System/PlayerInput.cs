@@ -53,6 +53,15 @@ public partial class @PlayerInput : IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""QuitGame"",
+                    ""type"": ""Button"",
+                    ""id"": ""315f68fa-14e6-4377-b800-599e47508489"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
                 }
             ],
             ""bindings"": [
@@ -198,6 +207,17 @@ public partial class @PlayerInput : IInputActionCollection2, IDisposable
                     ""action"": ""Inventory"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""63fd6366-3a91-472d-b713-8db3830ab420"",
+                    ""path"": ""<Keyboard>/escape"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""QuitGame"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -209,6 +229,7 @@ public partial class @PlayerInput : IInputActionCollection2, IDisposable
         m_Movement_PlayerMovement = m_Movement.FindAction("PlayerMovement", throwIfNotFound: true);
         m_Movement_Interact = m_Movement.FindAction("Interact", throwIfNotFound: true);
         m_Movement_Inventory = m_Movement.FindAction("Inventory", throwIfNotFound: true);
+        m_Movement_QuitGame = m_Movement.FindAction("QuitGame", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -271,6 +292,7 @@ public partial class @PlayerInput : IInputActionCollection2, IDisposable
     private readonly InputAction m_Movement_PlayerMovement;
     private readonly InputAction m_Movement_Interact;
     private readonly InputAction m_Movement_Inventory;
+    private readonly InputAction m_Movement_QuitGame;
     public struct MovementActions
     {
         private @PlayerInput m_Wrapper;
@@ -278,6 +300,7 @@ public partial class @PlayerInput : IInputActionCollection2, IDisposable
         public InputAction @PlayerMovement => m_Wrapper.m_Movement_PlayerMovement;
         public InputAction @Interact => m_Wrapper.m_Movement_Interact;
         public InputAction @Inventory => m_Wrapper.m_Movement_Inventory;
+        public InputAction @QuitGame => m_Wrapper.m_Movement_QuitGame;
         public InputActionMap Get() { return m_Wrapper.m_Movement; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -296,6 +319,9 @@ public partial class @PlayerInput : IInputActionCollection2, IDisposable
                 @Inventory.started -= m_Wrapper.m_MovementActionsCallbackInterface.OnInventory;
                 @Inventory.performed -= m_Wrapper.m_MovementActionsCallbackInterface.OnInventory;
                 @Inventory.canceled -= m_Wrapper.m_MovementActionsCallbackInterface.OnInventory;
+                @QuitGame.started -= m_Wrapper.m_MovementActionsCallbackInterface.OnQuitGame;
+                @QuitGame.performed -= m_Wrapper.m_MovementActionsCallbackInterface.OnQuitGame;
+                @QuitGame.canceled -= m_Wrapper.m_MovementActionsCallbackInterface.OnQuitGame;
             }
             m_Wrapper.m_MovementActionsCallbackInterface = instance;
             if (instance != null)
@@ -309,6 +335,9 @@ public partial class @PlayerInput : IInputActionCollection2, IDisposable
                 @Inventory.started += instance.OnInventory;
                 @Inventory.performed += instance.OnInventory;
                 @Inventory.canceled += instance.OnInventory;
+                @QuitGame.started += instance.OnQuitGame;
+                @QuitGame.performed += instance.OnQuitGame;
+                @QuitGame.canceled += instance.OnQuitGame;
             }
         }
     }
@@ -318,5 +347,6 @@ public partial class @PlayerInput : IInputActionCollection2, IDisposable
         void OnPlayerMovement(InputAction.CallbackContext context);
         void OnInteract(InputAction.CallbackContext context);
         void OnInventory(InputAction.CallbackContext context);
+        void OnQuitGame(InputAction.CallbackContext context);
     }
 }

@@ -35,7 +35,7 @@ public class Merchant : MonoBehaviour
     private bool canSellSkin, canSellPants, canSellHair, canSellClothes = false;
     private int currentSkinSprite, currentClothesSprite, currentHairSprite, currentPantsSprite = 0;
     private int currentSellSkinSprite, currentSellClothesSprite, currentSellHairSprite, currentSellPantsSprite = 0;
-    [SerializeField] bool buyingState, dialogueState;
+    private bool buyingState, dialogueState;
     [SerializeField] Button skinToneLeft, skinToneRight, clothesLeft, clothesRight, hairLeft, hairRight, pantsLeft, pantsRight;
 
     public static Merchant Instance { get; private set; }
@@ -106,7 +106,7 @@ public class Merchant : MonoBehaviour
     public void RightSkinButton() 
     {
         
-        if (currentSkinSprite == allSkinTones.Length)
+        if (currentSkinSprite >= allSkinTones.Length - 1)
         {
             currentSkinSprite = 0;
         }
@@ -134,7 +134,7 @@ public class Merchant : MonoBehaviour
     {
         if(currentClothesSprite<= 0)
         {
-            currentClothesSprite = allClothes.Length;
+            currentClothesSprite = allClothes.Length - 1;
         }
         else
         {
@@ -160,7 +160,7 @@ public class Merchant : MonoBehaviour
     public void RightClothesButton()
     {
 
-        if (currentClothesSprite == allClothes.Length)
+        if (currentClothesSprite >= allClothes.Length - 1)
         {
             currentClothesSprite = 0;
         }
@@ -188,7 +188,7 @@ public class Merchant : MonoBehaviour
     {
         if (currentHairSprite <= 0)
         {
-            currentHairSprite = allHair.Length;
+            currentHairSprite = allHair.Length - 1;
         }
         else
         {
@@ -213,7 +213,7 @@ public class Merchant : MonoBehaviour
 
     public void RightHairButton()
     {
-        if (currentHairSprite == allHair.Length)
+        if (currentHairSprite >= allHair.Length - 1)
         {
             currentHairSprite = 0;
         }
@@ -242,7 +242,7 @@ public class Merchant : MonoBehaviour
     {
         if (currentPantsSprite <= 0)
         {
-            currentPantsSprite = allPants.Length;
+            currentPantsSprite = allPants.Length - 1;
         }
         else
         {
@@ -268,7 +268,7 @@ public class Merchant : MonoBehaviour
 
     public void RightPantsButton()
     {
-        if (currentPantsSprite == allPants.Length)
+        if (currentPantsSprite >= allPants.Length - 1)
         {
             currentPantsSprite = 0;
         }
@@ -326,6 +326,8 @@ public class Merchant : MonoBehaviour
             PlayerScript.Instance.AvailableCredit -= hairPrice;
             ownedHairSprites.Add(allHair[currentHairSprite]);
         }
+
+        
         
     }
 

@@ -13,7 +13,7 @@ public class PlayerScript : MonoBehaviour
     [SerializeField] GameObject inventoryPanel;
     private bool inventoryActive = false;
     private Animator animator;
-    private bool canInteract, merchantInteract, genericInteract, buyingState = false;
+    private bool canInteract, merchantInteract, buyingState = false;
     private int availableCredit = 300;
     public static PlayerScript Instance { get; private set; }
     public int AvailableCredit { get { return availableCredit; } set { availableCredit = value; } }
@@ -92,38 +92,27 @@ public class PlayerScript : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.CompareTag("Interactable"))
-        {
-            canInteract = true;
-            interactText.text = "Interact";
-            genericInteract = true;
-            
-        }
-
         if (other.gameObject.CompareTag("Merchant"))
         {
             canInteract = true;
             interactText.text = "Press E To Talk To Merchant";
             merchantInteract = true;
-        }
-        
+        }    
     }
 
 
     private void OnTriggerExit(Collider other)
     {
-        if (other.gameObject.CompareTag("Interactable"))
-        {
-            canInteract = false;
-            interactText.text = string.Empty;
-            genericInteract = false;
-        }
-
         if (other.gameObject.CompareTag("Merchant"))
         {
             canInteract = false;
             interactText.text = string.Empty;
             merchantInteract = false;
         }
+    }
+
+    public void EscapeGame()
+    {
+        Application.Quit();
     }
 }
