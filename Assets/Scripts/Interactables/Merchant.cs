@@ -18,10 +18,10 @@ public class Merchant : MonoBehaviour
     [SerializeField] Sprite[] allPants;
     [SerializeField] GameObject skinSprite, clothesSprite, pantsSprite, hairSprite;
     [SerializeField] GameObject sellSkinSprite, sellClothesSprite, sellPantsSprite, sellHairSprite;
-    [SerializeField] TextMeshProUGUI tonePriceText;
-    [SerializeField] TextMeshProUGUI clothesPriceText;
-    [SerializeField] TextMeshProUGUI pantsPriceText;
-    [SerializeField] TextMeshProUGUI hairPriceText;
+    [SerializeField] TextMeshProUGUI tonePriceText, sellTonePriceText;
+    [SerializeField] TextMeshProUGUI clothesPriceText, sellClothesPriceText;
+    [SerializeField] TextMeshProUGUI pantsPriceText, sellPantsPriceText;
+    [SerializeField] TextMeshProUGUI hairPriceText, sellHairPriceText;
     [SerializeField] Button buyingPanelExit, buyingButton, sellingButton;
     [SerializeField] GameObject dialoguePanel;
     [SerializeField] int clothesPrice = 30;
@@ -53,6 +53,10 @@ public class Merchant : MonoBehaviour
         clothesPriceText.text = clothesPrice.ToString();
         pantsPriceText.text = pantsPrice.ToString();
         hairPriceText.text = hairPrice.ToString();
+        sellTonePriceText.text = (tonePrice - 10).ToString();
+        sellClothesPriceText.text = (clothesPrice - 10).ToString();
+        sellHairPriceText.text = (hairPrice - 10).ToString();
+        sellPantsPriceText.text = (pantsPrice - 10).ToString();
         ownedSkins.Add(0);
         ownedClothes.Add(0);
         ownedHair.Add(0);
@@ -75,6 +79,7 @@ public class Merchant : MonoBehaviour
         if (dialogueState)
         {
             dialoguePanel.SetActive(true);
+            PlayerScript.Instance.BuyingState = true;
         }
     }
 
@@ -459,6 +464,7 @@ public class Merchant : MonoBehaviour
     {
         PlayerScript.Instance.BuyingState = false;
         dialoguePanel.SetActive(false);
+        dialogueState = false;
     }
 
     public void PlayerSell()
@@ -466,7 +472,7 @@ public class Merchant : MonoBehaviour
         dialoguePanel.SetActive(false);
         sellingPanel.SetActive(true);
         dialogueState = false;
-        PlayerScript.Instance.BuyingState = true;
+        
     }
 
     public void PlayerBuying()
