@@ -22,6 +22,7 @@ public class InputManager : MonoBehaviour
         movement = new PlayerInput().Movement;
         playerScript = GetComponent<PlayerScript>();
         movement.Interact.performed += ctx => playerScript.Interact();
+        movement.Inventory.performed += ctx => playerScript.CheckInventory();
     }
 
 

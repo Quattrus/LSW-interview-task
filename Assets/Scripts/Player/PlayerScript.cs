@@ -14,14 +14,14 @@ public class PlayerScript : MonoBehaviour
     [SerializeField] GameObject hair;
     [SerializeField] TextMeshProUGUI interactText;
     [SerializeField] TextMeshProUGUI credit;
-    [SerializeField] GameObject buyingPanel;
-    [SerializeField] Button buyingPanelExit;
+    [SerializeField] GameObject inventoryPanel;
+    private bool inventoryActive = false;
     private Animator animator;
     private bool canInteract, merchantInteract, genericInteract, buyingState = false;
     private int availableCredit = 300;
     public static PlayerScript Instance { get; private set; }
     public int AvailableCredit { get { return availableCredit; } set { availableCredit = value; } }
-    public bool BuyingState { get { return buyingState; } }
+    public bool BuyingState { get { return buyingState; } set { buyingState = value; } }
     public TextMeshProUGUI InteractText { get { return interactText; } set { interactText = value; } }
 
 
@@ -31,7 +31,7 @@ public class PlayerScript : MonoBehaviour
         Instance = this;
         characterController = gameObject.GetComponent<CharacterController>();
         animator = gameObject.GetComponent<Animator>();
-        buyingPanel.SetActive(false);
+        inventoryPanel.SetActive(false);
         
     }
 
@@ -73,14 +73,28 @@ public class PlayerScript : MonoBehaviour
         {
             if (merchantInteract)
             {
-                buyingPanel.SetActive(true);
-                buyingState = true;
+                Merchant.Instance.DialogueState = true;
             }
             else if (genericInteract)
             {
                 Debug.Log("Generic Interaction");
             }
         }
+    }
+
+    public void CheckInventory()
+    {
+        if (!inventoryActive)
+        {
+            inventoryPanel.SetActive(true);
+            inventoryActive = true;
+        }
+        else
+        {
+            inventoryPanel.SetActive(false);
+            inventoryActive = false;
+        }
+        
     }
 
 
@@ -119,11 +133,5 @@ public class PlayerScript : MonoBehaviour
             interactText.text = string.Empty;
             merchantInteract = false;
         }
-    }
-
-    public void ExitBuyingState()
-    {
-        buyingState = false;
-        buyingPanel.SetActive(false);
     }
 }
