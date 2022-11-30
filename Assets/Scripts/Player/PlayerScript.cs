@@ -1,9 +1,5 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
-using UnityEngine.UI;
-using Mono.Cecil.Cil;
 
 public class PlayerScript : MonoBehaviour
 {
@@ -75,10 +71,6 @@ public class PlayerScript : MonoBehaviour
             {
                 Merchant.Instance.DialogueState = true;
             }
-            else if (genericInteract)
-            {
-                Debug.Log("Generic Interaction");
-            }
         }
     }
 
@@ -111,7 +103,7 @@ public class PlayerScript : MonoBehaviour
         if (other.gameObject.CompareTag("Merchant"))
         {
             canInteract = true;
-            interactText.text = "Buy";
+            interactText.text = "Press E To Talk To Merchant";
             merchantInteract = true;
         }
         

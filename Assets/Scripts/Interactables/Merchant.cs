@@ -1,12 +1,7 @@
-using System;
-using System.Collections;
 using System.Collections.Generic;
-using System.Linq;
 using TMPro;
 using UnityEngine;
-using UnityEngine.Rendering.Universal;
 using UnityEngine.UI;
-using static UnityEngine.InputManagerEntry;
 
 public class Merchant : MonoBehaviour
 {
@@ -28,19 +23,19 @@ public class Merchant : MonoBehaviour
     [SerializeField] int hairPrice = 10;
     [SerializeField] int pantsPrice = 20;
     [SerializeField] int tonePrice = 50;
-    private List<int> ownedSkins = new List<int>();
+    [SerializeField] List<int> ownedSkins = new List<int>();
     [SerializeField] List<Sprite> ownedSkinSprites = new List<Sprite>();
-    private List<int> ownedClothes = new List<int>();
+    [SerializeField] List<int> ownedClothes = new List<int>();
     [SerializeField] List<Sprite> ownedClothesSprites = new List<Sprite>();
-    private List<int> ownedHair = new List<int>();
+    [SerializeField] List<int> ownedHair = new List<int>();
     [SerializeField] List<Sprite> ownedHairSprites = new List<Sprite>();
-    private List<int> ownedPants = new List<int>();
+    [SerializeField] List<int> ownedPants = new List<int>();
     [SerializeField] List<Sprite> ownedPantsSprites = new List<Sprite>();
     private bool canBuySkin, canBuyPants, canBuyHair, canBuyClothes = false;
     private bool canSellSkin, canSellPants, canSellHair, canSellClothes = false;
     private int currentSkinSprite, currentClothesSprite, currentHairSprite, currentPantsSprite = 0;
     private int currentSellSkinSprite, currentSellClothesSprite, currentSellHairSprite, currentSellPantsSprite = 0;
-    private bool buyingState, dialogueState, sellingState;
+    [SerializeField] bool buyingState, dialogueState;
     [SerializeField] Button skinToneLeft, skinToneRight, clothesLeft, clothesRight, hairLeft, hairRight, pantsLeft, pantsRight;
 
     public static Merchant Instance { get; private set; }
@@ -55,12 +50,8 @@ public class Merchant : MonoBehaviour
         hairPriceText.text = hairPrice.ToString();
         sellTonePriceText.text = (tonePrice - 10).ToString();
         sellClothesPriceText.text = (clothesPrice - 10).ToString();
-        sellHairPriceText.text = (hairPrice - 10).ToString();
+        sellHairPriceText.text = (hairPrice - 5).ToString();
         sellPantsPriceText.text = (pantsPrice - 10).ToString();
-        ownedSkins.Add(0);
-        ownedClothes.Add(0);
-        ownedHair.Add(0);
-        ownedPants.Add(0);
         buyingPanel.SetActive(false);
         sellingPanel.SetActive(false);
         dialoguePanel.SetActive(false);
@@ -86,9 +77,9 @@ public class Merchant : MonoBehaviour
     public void LeftSkinButton()
     {
         
-        if(currentSkinSprite <= 0)
+        if(currentSkinSprite == 0)
         {
-            currentSkinSprite = allSkinTones.Length -1;    
+            currentSkinSprite = allSkinTones.Length - 1;    
         }
         else
         {
@@ -127,7 +118,7 @@ public class Merchant : MonoBehaviour
     }
     public void RightSkinButtonSell()
     {
-        if (currentSellSkinSprite >= 0)
+        if (currentSellSkinSprite >= ownedSkinSprites.Count - 1)
         {
             currentSellSkinSprite = 0;
         }
@@ -143,7 +134,7 @@ public class Merchant : MonoBehaviour
     {
         if(currentClothesSprite<= 0)
         {
-            currentClothesSprite = allClothes.Length -1;
+            currentClothesSprite = allClothes.Length;
         }
         else
         {
@@ -182,7 +173,7 @@ public class Merchant : MonoBehaviour
 
     public void RightClothesButtonSell()
     {
-        if (currentSellClothesSprite >= 0)
+        if (currentSellClothesSprite >= ownedClothes.Count - 1)
         {
             currentSellClothesSprite = 0;
         }
@@ -197,7 +188,7 @@ public class Merchant : MonoBehaviour
     {
         if (currentHairSprite <= 0)
         {
-            currentHairSprite = allHair.Length - 1;
+            currentHairSprite = allHair.Length;
         }
         else
         {
@@ -235,7 +226,7 @@ public class Merchant : MonoBehaviour
 
     public void RightHairButtonSell()
     {
-        if (currentSellHairSprite >= 0)
+        if (currentSellHairSprite >= ownedHairSprites.Count - 1)
         {
             currentSellHairSprite = 0;
         }
@@ -251,7 +242,7 @@ public class Merchant : MonoBehaviour
     {
         if (currentPantsSprite <= 0)
         {
-            currentPantsSprite = allPants.Length - 1;
+            currentPantsSprite = allPants.Length;
         }
         else
         {
@@ -290,7 +281,7 @@ public class Merchant : MonoBehaviour
 
     public void RightPantsButtonSell()
     {
-        if (currentSellPantsSprite >= 0)
+        if (currentSellPantsSprite >= ownedPantsSprites.Count - 1)
         {
             currentSellPantsSprite = 0;
         }
@@ -321,6 +312,7 @@ public class Merchant : MonoBehaviour
             CostumeScript.Instance.AvailableClothes(currentClothesSprite);
             ownedClothes.Add(currentClothesSprite);
             PlayerScript.Instance.AvailableCredit -= clothesPrice;
+            ownedClothesSprites.Add(allClothes[currentClothesSprite]);
         }
         
     }
@@ -332,6 +324,7 @@ public class Merchant : MonoBehaviour
             CostumeScript.Instance.AvailableHair(currentHairSprite);
             ownedHair.Add(currentHairSprite);
             PlayerScript.Instance.AvailableCredit -= hairPrice;
+            ownedHairSprites.Add(allHair[currentHairSprite]);
         }
         
     }
@@ -343,6 +336,7 @@ public class Merchant : MonoBehaviour
             CostumeScript.Instance.AvailablePants(currentPantsSprite);
             ownedPants.Add(currentPantsSprite);
             PlayerScript.Instance.AvailableCredit -= pantsPrice;
+            ownedPantsSprites.Add(allPants[currentPantsSprite]);
         }
         
     }
@@ -351,17 +345,61 @@ public class Merchant : MonoBehaviour
     {
         if (canSellSkin)
         {
-            CostumeScript.Instance.RemoveSkins(currentSkinSprite);
-            ownedSkins.Remove(currentSkinSprite);
+            Sprite toSellSkinSprite = ownedSkinSprites[currentSellSkinSprite];
+            int toRemoveSkinSprite = ownedSkins[currentSellSkinSprite];
+            ownedSkinSprites.Remove(toSellSkinSprite);
+            ownedSkins.Remove(toRemoveSkinSprite);
+            if (CostumeScript.Instance.SkinTonePicked == currentSellSkinSprite)
+            {
+                CostumeScript.Instance.ChangeSkinTone(CostumeScript.Instance.SkinTonePicked - 1);
+            }
+            else if(CostumeScript.Instance.SkinTonePicked == 1)
+            {
+                CostumeScript.Instance.ChangeSkinTone(0);
+            }
+            CostumeScript.Instance.RemoveSkins(toRemoveSkinSprite);
+            if(currentSellSkinSprite < 1)
+            {
+                currentSellSkinSprite = ownedSkins.Count;
+                sellSkinSprite.GetComponent<Image>().sprite = ownedSkinSprites[ownedSkins.Count - 1];
+            }
+            else
+            {
+                sellSkinSprite.GetComponent<Image>().sprite = ownedSkinSprites[currentSellSkinSprite - 1];
+            }
+                     
             PlayerScript.Instance.AvailableCredit += (tonePrice - 10);
+            
+            
         }
     }
     public void SellPants()
     {
         if (canSellPants)
-        {
-            CostumeScript.Instance.RemovePants(currentPantsSprite);
-            ownedSkins.Remove(currentPantsSprite);
+        {                      
+            Sprite toSellPantsSprite = ownedPantsSprites[currentSellPantsSprite];
+            int toRemovePantsSprite = ownedPants[currentSellPantsSprite];
+            ownedPantsSprites.Remove(toSellPantsSprite);
+            ownedPants.Remove(toRemovePantsSprite);
+            if (CostumeScript.Instance.PantsPicked == currentSellPantsSprite)
+            {
+                CostumeScript.Instance.ChangePants(CostumeScript.Instance.PantsPicked - 1);
+            }
+            else if (CostumeScript.Instance.PantsPicked == 1)
+            {
+                CostumeScript.Instance.ChangePants(0);
+            }
+            CostumeScript.Instance.RemovePants(toRemovePantsSprite);
+            
+            if (currentSellPantsSprite < 1)
+            {
+                currentSellPantsSprite = ownedPants.Count;
+                sellPantsSprite.GetComponent<Image>().sprite = ownedPantsSprites[ownedPants.Count - 1];
+            }
+            else
+            {
+                sellPantsSprite.GetComponent<Image>().sprite = ownedSkinSprites[currentSellPantsSprite - 1];
+            }
             PlayerScript.Instance.AvailableCredit += (pantsPrice - 10);
         }
     }
@@ -369,8 +407,29 @@ public class Merchant : MonoBehaviour
     {
         if (canSellHair)
         {
-            CostumeScript.Instance.RemoveHair(currentHairSprite);
-            ownedSkins.Remove(currentHairSprite);
+            PlayerScript.Instance.AvailableCredit += (hairPrice - 10);
+            Sprite toSellHairSprite = ownedHairSprites[currentSellHairSprite];
+            int toRemoveHairSprite = ownedHair[currentSellHairSprite];
+            ownedHairSprites.Remove(toSellHairSprite);
+            ownedHair.Remove(toRemoveHairSprite);
+            if (CostumeScript.Instance.HairPicked == currentSellHairSprite)
+            {
+                CostumeScript.Instance.ChangeHair(CostumeScript.Instance.HairPicked - 1);
+            }
+            else if (CostumeScript.Instance.HairPicked == 1)
+            {
+                CostumeScript.Instance.ChangeHair(0);
+            }
+            CostumeScript.Instance.RemoveHair(toRemoveHairSprite);
+            if (currentSellHairSprite < 1)
+            {
+                currentSellHairSprite = ownedHair.Count;
+                sellHairSprite.GetComponent<Image>().sprite = ownedSkinSprites[ownedHair.Count - 1];
+            }
+            else
+            {
+                sellHairSprite.GetComponent<Image>().sprite = ownedHairSprites[currentSellHairSprite - 1];
+            }
             PlayerScript.Instance.AvailableCredit += (hairPrice - 10);
         }
     }
@@ -378,8 +437,30 @@ public class Merchant : MonoBehaviour
     {
         if (canSellClothes)
         {
-            CostumeScript.Instance.RemoveHair(currentClothesSprite);
-            ownedSkins.Remove(currentClothesSprite);
+            PlayerScript.Instance.AvailableCredit += (clothesPrice - 10);
+            Sprite toSellClothesSprite = ownedClothesSprites[currentSellClothesSprite];
+            int toRemoveClothesSprite = ownedClothes[currentSellClothesSprite];
+            ownedClothesSprites.Remove(toSellClothesSprite);
+            ownedClothes.Remove(toRemoveClothesSprite);
+            if (CostumeScript.Instance.HairPicked == currentSellHairSprite)
+            {
+                CostumeScript.Instance.ChangeClothes(CostumeScript.Instance.ClothesPicked - 1);
+            }
+            else if (CostumeScript.Instance.ClothesPicked == 1)
+            {
+                CostumeScript.Instance.ChangeClothes(0);
+            }
+            CostumeScript.Instance.RemoveClothes(toRemoveClothesSprite);
+            
+            if (currentSellClothesSprite < 1)
+            {
+                currentSellClothesSprite = ownedClothes.Count;
+                sellClothesSprite.GetComponent<Image>().sprite = ownedClothesSprites[ownedClothes.Count - 1];
+            }
+            else
+            {
+                sellClothesSprite.GetComponent<Image>().sprite = ownedClothesSprites[currentSellClothesSprite - 1];
+            }
             PlayerScript.Instance.AvailableCredit += (clothesPrice - 10);
         }
     }
@@ -393,6 +474,7 @@ public class Merchant : MonoBehaviour
                 {
                     canBuySkin = false;
                     canSellSkin = true;
+                    
                 }
                 else
                 {
@@ -405,16 +487,16 @@ public class Merchant : MonoBehaviour
     {
             foreach (int clothes in ownedClothes)
             {
-                if (currentClothesSprite == clothes)
-                {
-                    canBuyClothes = false;
-                    canSellClothes = true;
-                }
-                else
-                {
-                    canBuyClothes = true;
-                }
+            if (currentClothesSprite == clothes)
+            {
+                canBuyClothes = false;
+                canSellClothes = true;
             }
+            else
+            {
+                canBuyClothes = true;
+            }
+        }
     }
 
 
@@ -426,6 +508,7 @@ public class Merchant : MonoBehaviour
             {
                 canBuyPants = false;
                 canSellPants = true;
+                
             }
             else
             {
@@ -440,7 +523,8 @@ public class Merchant : MonoBehaviour
             if (currentHairSprite == hair)
             {
                 canBuyHair = false;
-                canSellHair = true;
+                canSellHair = true;  
+                
             }
             else
             {
@@ -453,12 +537,19 @@ public class Merchant : MonoBehaviour
     {
         PlayerScript.Instance.BuyingState = false;
         buyingPanel.SetActive(false);
+        buyingState = false;
     }
 
     public void ExitSellingState()
     {
         PlayerScript.Instance.BuyingState = false;
         sellingPanel.SetActive(false);
+        buyingState = false;
+        currentSellSkinSprite = 0;
+        currentSellHairSprite = 0;
+        currentSellClothesSprite = 0;
+        currentSellPantsSprite = 0;
+
     }
     public void ExitDialogueState()
     {
@@ -470,9 +561,12 @@ public class Merchant : MonoBehaviour
     public void PlayerSell()
     {
         dialoguePanel.SetActive(false);
+        buyingState = true;
         sellingPanel.SetActive(true);
         dialogueState = false;
-        
+        PlayerScript.Instance.BuyingState = true;
+
+
     }
 
     public void PlayerBuying()
@@ -480,7 +574,9 @@ public class Merchant : MonoBehaviour
         dialoguePanel.SetActive(false);
         dialogueState = false;
         buyingPanel.SetActive(true);
+        buyingState = true;
         PlayerScript.Instance.BuyingState = true;
+
     }
 
 

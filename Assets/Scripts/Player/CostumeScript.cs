@@ -1,8 +1,4 @@
-using Packages.Rider.Editor.UnitTesting;
-using System.Collections;
 using System.Collections.Generic;
-using System.Linq;
-using System.Runtime.CompilerServices;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -13,22 +9,22 @@ public class CostumeScript : MonoBehaviour
     [SerializeField] List<RuntimeAnimatorController> newClothes = new List<RuntimeAnimatorController>();
     [SerializeField] List<RuntimeAnimatorController> newPants = new List<RuntimeAnimatorController>();
     [SerializeField] List<RuntimeAnimatorController> newHair = new List<RuntimeAnimatorController>();
-    private List<RuntimeAnimatorController> availableSkin = new List<RuntimeAnimatorController>();
-    private List<RuntimeAnimatorController> availableClothes = new List<RuntimeAnimatorController>();
-    private List<RuntimeAnimatorController> availableHair = new List<RuntimeAnimatorController>();
-    private List<RuntimeAnimatorController> availablePants = new List<RuntimeAnimatorController>();
+    [SerializeField] List<RuntimeAnimatorController> availableSkin = new List<RuntimeAnimatorController>();
+    [SerializeField] List<RuntimeAnimatorController> availableClothes = new List<RuntimeAnimatorController>();
+    [SerializeField] List<RuntimeAnimatorController> availableHair = new List<RuntimeAnimatorController>();
+    [SerializeField] List<RuntimeAnimatorController> availablePants = new List<RuntimeAnimatorController>();
     private int skinTonePicked, clothesPicked, hairPicked, pantsPicked = 0;
     [SerializeField] GameObject clothesObject;
     [SerializeField] GameObject pantsObject;
     [SerializeField] GameObject hairObject;
-    [SerializeField] Button skinTonePrev, skinToneNext;
-    [SerializeField] Slider skinToneSlider;
-    [SerializeField] Slider clothesSlider;
-    [SerializeField] Slider pantsSlider;
-    [SerializeField] Slider hairSlider;
+    [SerializeField] Button skinTonePrev, skinToneNext, clothesPrev, clothesNext, hairPrev, hairNext;
 
 
     public static CostumeScript Instance { get; private set; }
+    public int SkinTonePicked { get { return skinTonePicked; } set { skinTonePicked = value; } }
+    public int ClothesPicked { get { return clothesPicked; } set { clothesPicked = value; } }
+    public int HairPicked { get { return hairPicked; } set { hairPicked = value; } }
+    public int PantsPicked { get { return pantsPicked; } set { pantsPicked = value; } }
 
 
     private void Awake()
@@ -43,21 +39,37 @@ public class CostumeScript : MonoBehaviour
 
 
 
-    private void ChangeSkinTone()
+    public void ChangeSkinTone(int value)
     {
-        animator.runtimeAnimatorController = availableSkin[skinTonePicked];
+        if(value < 0)
+        {
+            value = availableSkin.Count - 1;
+        }
+        animator.runtimeAnimatorController = availableSkin[value];
     }
-    private void ChangeClothes()
+    public void ChangeClothes(int value)
     {
-        clothesObject.GetComponent<Animator>().runtimeAnimatorController = availableClothes[clothesPicked];
+        if (value < 0)
+        {
+            value = availableClothes.Count - 1;
+        }
+        clothesObject.GetComponent<Animator>().runtimeAnimatorController = availableClothes[value];
     }
-    private void ChangePants()
+    public void ChangePants(int value)
     {
-        pantsObject.GetComponent<Animator>().runtimeAnimatorController = availablePants[pantsPicked];
+        if (value < 0)
+        {
+            value = availablePants.Count - 1;
+        }
+        pantsObject.GetComponent<Animator>().runtimeAnimatorController = availablePants[value];
     }
-    private void ChangeHair()
+    public void ChangeHair(int value)
     {
-        hairObject.GetComponent<Animator>().runtimeAnimatorController = availableHair[hairPicked];
+        if (value < 0)
+        {
+            value = availableHair.Count - 1;
+        }
+        hairObject.GetComponent<Animator>().runtimeAnimatorController = availableHair[value];
     }
 
     public void SkinTonePrevious()
@@ -70,7 +82,7 @@ public class CostumeScript : MonoBehaviour
         {
             skinTonePicked--;
         }
-        ChangeSkinTone();
+        ChangeSkinTone(skinTonePicked);
     }
 
     public void SkinToneNext()
@@ -83,7 +95,7 @@ public class CostumeScript : MonoBehaviour
         {
             skinTonePicked++;
         }
-        ChangeSkinTone();
+        ChangeSkinTone(skinTonePicked);
     }
 
     public void ClothesNext()
@@ -96,7 +108,7 @@ public class CostumeScript : MonoBehaviour
         {
             clothesPicked++;
         }
-        ChangeClothes();
+        ChangeClothes(clothesPicked);
     }
 
     public void ClothesPrevious()
@@ -109,6 +121,7 @@ public class CostumeScript : MonoBehaviour
         {
             clothesPicked--;
         }
+        ChangeClothes(clothesPicked);
     }
 
     public void HairNext()
@@ -121,7 +134,7 @@ public class CostumeScript : MonoBehaviour
         {
             hairPicked++;
         }
-        ChangeHair();
+        ChangeHair(hairPicked);
     }
 
     public void HairPrevious()
@@ -134,6 +147,7 @@ public class CostumeScript : MonoBehaviour
         {
             hairPicked--;
         }
+        ChangeHair(hairPicked);
     }
 
     public void PantsNext()
@@ -146,7 +160,7 @@ public class CostumeScript : MonoBehaviour
         {
             pantsPicked++;
         }
-        ChangePants();
+        ChangePants(pantsPicked);
     }
 
     public void PantsPrevious()
@@ -159,6 +173,7 @@ public class CostumeScript : MonoBehaviour
         {
             pantsPicked--;
         }
+        ChangePants(pantsPicked);
     }
 
     public void AvailableSkins(int value)
