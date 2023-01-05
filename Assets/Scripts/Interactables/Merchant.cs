@@ -400,7 +400,7 @@ public class Merchant : MonoBehaviour
             }
             else
             {
-                sellPantsSprite.GetComponent<Image>().sprite = ownedSkinSprites[currentSellPantsSprite - 1];
+                sellPantsSprite.GetComponent<Image>().sprite = ownedPantsSprites[currentSellPantsSprite - 1];
             }
             PlayerScript.Instance.AvailableCredit += (pantsPrice - 10);
         }
